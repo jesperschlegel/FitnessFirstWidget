@@ -188,7 +188,7 @@ async function createWidget() {
     openingHoursText.font = Font.mediumSystemFont(12);
     openingHoursText.textColor = COLORS.grayText;
 
-    const updated = headerLeft.addText(`Stand: ${formattedTime}`);
+    const updated = headerLeft.addText(`Aktualisiert: ${formattedTime}`);
     updated.font = Font.mediumSystemFont(12);
     updated.textColor = COLORS.grayText;
 
@@ -232,6 +232,9 @@ async function createWidget() {
         level.textColor = levelColor(current.level);
     } else {
         left.addText("--");
+        const closedText = left.addText("Aktuell geschlossen");
+        closedText.font = Font.mediumSystemFont(12);
+        closedText.textColor = COLORS.grayText;
     }
 
     // RIGHT: FORECAST
