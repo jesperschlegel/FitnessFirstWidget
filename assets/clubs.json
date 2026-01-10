@@ -1,0 +1,1022 @@
+[
+  {
+    "name": "Berlin - Wedding",
+    "url_id": "berlin-wedding",
+    "usage_id": "2447840130"
+  },
+  {
+    "name": "Detmold",
+    "url_id": "detmold",
+    "usage_id": "2017436370"
+  },
+  {
+    "name": "München - Sendling",
+    "url_id": "muenchen-sendling",
+    "usage_id": "2237556420"
+  },
+  {
+    "name": "Darmstadt - Pfnorstraße",
+    "url_id": "darmstadt-pfnorstrasse",
+    "usage_id": "2141663170"
+  },
+  {
+    "name": "München - Schwabing",
+    "url_id": "muenchen-schwabing",
+    "usage_id": "1357396380"
+  },
+  {
+    "name": "Trier - Nord",
+    "url_id": "trier-nord",
+    "usage_id": "1606506570"
+  },
+  {
+    "name": "Köln - Schildergasse",
+    "url_id": "koeln-innenstadt-schildergasse",
+    "usage_id": "1317157790"
+  },
+  {
+    "name": "Trier - West",
+    "url_id": "trier-west",
+    "usage_id": "1606282130"
+  },
+  {
+    "name": "Berlin - Wilmersdorf",
+    "url_id": "berlin-wilmersdorf",
+    "usage_id": "1330880140"
+  },
+  {
+    "name": "Trier - Zentrum",
+    "url_id": "trier-zentrum",
+    "usage_id": "1552211670"
+  },
+  {
+    "name": "Berlin - Zehlendorfer Welle",
+    "url_id": "berlin-zehlendorfer-welle",
+    "usage_id": "1338053500"
+  },
+  {
+    "name": "Hamburg - Niendorf",
+    "url_id": "hamburg-niendorf",
+    "usage_id": "1376260040"
+  },
+  {
+    "name": "Hamburg - Rödingsmarkt",
+    "url_id": "hamburg-neustadt-roedingsmarkt",
+    "usage_id": "1375550710"
+  },
+  {
+    "name": "Münster - Aaseestadt",
+    "url_id": "muenster-aaseestadt",
+    "usage_id": "1254349140"
+  },
+  {
+    "name": "Münster - Germania - Campus",
+    "url_id": "muenster-germania-campus",
+    "usage_id": "1257174880"
+  },
+  {
+    "name": "Hamburg - Lüneburger Tor",
+    "url_id": "hamburg-lueneburger-tor",
+    "usage_id": "2447822250"
+  },
+  {
+    "name": "Frankfurt - Preungesheim",
+    "url_id": "frankfurt-preungesheim",
+    "usage_id": "2407179550"
+  },
+  {
+    "name": "Frankfurt - Rödelheim - Ladies",
+    "url_id": "frankfurt-women-roedelheim",
+    "usage_id": "2159740720"
+  },
+  {
+    "name": "Datteln",
+    "url_id": "datteln",
+    "usage_id": "1463335190"
+  },
+  {
+    "name": "Frankfurt - Sachsenhausen - Ladies",
+    "url_id": "frankfurt-women-sachsenhausen",
+    "usage_id": "1249347530"
+  },
+  {
+    "name": "Aalen",
+    "url_id": "aalen",
+    "usage_id": "1688438740"
+  },
+  {
+    "name": "Köln - Sülz",
+    "url_id": "koeln-suelz",
+    "usage_id": "1312259220"
+  },
+  {
+    "name": "Kornwestheim",
+    "url_id": "kornwestheim",
+    "usage_id": "1883508710"
+  },
+  {
+    "name": "Bielefeld - Am Boulevard",
+    "url_id": "bielefeld-boulevard-1",
+    "usage_id": "1255748020"
+  },
+  {
+    "name": "Biberach",
+    "url_id": "biberach",
+    "usage_id": "1890996580"
+  },
+  {
+    "name": "Frankfurt - Westend",
+    "url_id": "frankfurt-westend",
+    "usage_id": "1285865290"
+  },
+  {
+    "name": "Laatzen",
+    "url_id": "laatzen",
+    "usage_id": "1439721570"
+  },
+  {
+    "name": "Freiburg",
+    "url_id": "freiburg",
+    "usage_id": "1549475630"
+  },
+  {
+    "name": "Dorsten",
+    "url_id": "dorsten",
+    "usage_id": "1460068730"
+  },
+  {
+    "name": "Nordhausen",
+    "url_id": "nordhausen",
+    "usage_id": "999999999"
+  },
+  {
+    "name": "Uhingen",
+    "url_id": "uhingen",
+    "usage_id": "1679595440"
+  },
+  {
+    "name": "Hamburg - St. Georg",
+    "url_id": "hamburg-st-georg-hbf",
+    "usage_id": "1375487790"
+  },
+  {
+    "name": "Hamburg - Stephansplatz",
+    "url_id": "hamburg-stephansplatz",
+    "usage_id": "1384437500"
+  },
+  {
+    "name": "Fürth",
+    "url_id": "fuerth",
+    "usage_id": "2407178250"
+  },
+  {
+    "name": "Dortmund",
+    "url_id": "dortmund",
+    "usage_id": "2445876250"
+  },
+  {
+    "name": "Nürnberg",
+    "url_id": "nuernberg",
+    "usage_id": "2405771120"
+  },
+  {
+    "name": "Bielefeld - Herforder Straße",
+    "url_id": "bielefeld-mitte",
+    "usage_id": "1416529920"
+  },
+  {
+    "name": "Laufenburg",
+    "url_id": "laufenburg",
+    "usage_id": "2406515870"
+  },
+  {
+    "name": "Waiblingen",
+    "url_id": "waiblingen",
+    "usage_id": "1875082440"
+  },
+  {
+    "name": "Hamburg - Stadthöfe",
+    "url_id": "hamburg-stadthoefe",
+    "usage_id": "1214789660"
+  },
+  {
+    "name": "Offenbach",
+    "url_id": "offenbach",
+    "usage_id": "2405712540"
+  },
+  {
+    "name": "Dresden - Postplatz",
+    "url_id": "dresden-postplatz",
+    "usage_id": "2447780470"
+  },
+  {
+    "name": "Vösendorf",
+    "url_id": "voesendorf",
+    "usage_id": "2509882760"
+  },
+  {
+    "name": "Laupheim",
+    "url_id": "laupheim",
+    "usage_id": "1895674540"
+  },
+  {
+    "name": "Bietigheim-Bissingen",
+    "url_id": "bietigheim-bissingen",
+    "usage_id": "1884726910"
+  },
+  {
+    "name": "Hamburg - Wandsbek",
+    "url_id": "hamburg-wandsbek",
+    "usage_id": "1381304420"
+  },
+  {
+    "name": "Dresden - Prager Spitze",
+    "url_id": "dresden-prager-spitze",
+    "usage_id": "1274276050"
+  },
+  {
+    "name": "Geislingen",
+    "url_id": "geislingen",
+    "usage_id": "1661288370"
+  },
+  {
+    "name": "Leipzig - Messehof",
+    "url_id": "leipzig-mitte-messehof",
+    "usage_id": "1264196080"
+  },
+  {
+    "name": "Wangen",
+    "url_id": "wangen",
+    "usage_id": "1884698170"
+  },
+  {
+    "name": "Paderborn - Innenstadt",
+    "url_id": "paderborn-innenstadt",
+    "usage_id": "1414223870"
+  },
+  {
+    "name": "Blieskastel",
+    "url_id": "blieskastel",
+    "usage_id": "1576472940"
+  },
+  {
+    "name": "Georgsmarienhütte",
+    "url_id": "georgsmarienhuette",
+    "usage_id": "1459127920"
+  },
+  {
+    "name": "Hamburg - Langenhorn",
+    "url_id": "hamburg-langenhorn",
+    "usage_id": "2445880970"
+  },
+  {
+    "name": "Hamburg - Winterhude",
+    "url_id": "hamburg-winterhude",
+    "usage_id": "1217745570"
+  },
+  {
+    "name": "Dresden - Altstadt",
+    "url_id": "dresden-altstadt",
+    "usage_id": "1425155790"
+  },
+  {
+    "name": "Gera",
+    "url_id": "gera",
+    "usage_id": "2447844360"
+  },
+  {
+    "name": "Paderborn - Kernstadt",
+    "url_id": "paderborn-kernstadt",
+    "usage_id": "2447830550"
+  },
+  {
+    "name": "Wäschenbeuren",
+    "url_id": "waeschenbeuren",
+    "usage_id": "1679008750"
+  },
+  {
+    "name": "Blomberg",
+    "url_id": "blomberg",
+    "usage_id": "2017439540"
+  },
+  {
+    "name": "Düsseldorf - Am Seestern",
+    "url_id": "duesseldorf-seestern",
+    "usage_id": "2447783370"
+  },
+  {
+    "name": "Lemgo",
+    "url_id": "lemgo",
+    "usage_id": "2006688920"
+  },
+  {
+    "name": "Leipzig - Thomaskirche",
+    "url_id": "leipzig-thomaskirche",
+    "usage_id": "2447818860"
+  },
+  {
+    "name": "Wedel",
+    "url_id": "wedel",
+    "usage_id": "1450945880"
+  },
+  {
+    "name": "Ludwigsburg",
+    "url_id": "ludwigsburg",
+    "usage_id": "1884693320"
+  },
+  {
+    "name": "Düsseldorf - Düsseltal",
+    "url_id": "duesseldorf-duesseltal",
+    "usage_id": "2445923070"
+  },
+  {
+    "name": "Hamm",
+    "url_id": "hamm",
+    "usage_id": "1460912610"
+  },
+  {
+    "name": "Pforzheim",
+    "url_id": "pforzheim",
+    "usage_id": "1550721450"
+  },
+  {
+    "name": "Giengen",
+    "url_id": "giengen",
+    "usage_id": "1680363620"
+  },
+  {
+    "name": "Pirmasens",
+    "url_id": "pirmasens",
+    "usage_id": "1604389230"
+  },
+  {
+    "name": "Bonn",
+    "url_id": "bonn",
+    "usage_id": "1319906560"
+  },
+  {
+    "name": "Wernigerode",
+    "url_id": "wernigerode",
+    "usage_id": "1449991020"
+  },
+  {
+    "name": "Braunschweig",
+    "url_id": "braunschweig",
+    "usage_id": "1430297550"
+  },
+  {
+    "name": "Hannover - City",
+    "url_id": "hannover-city",
+    "usage_id": "1440050380"
+  },
+  {
+    "name": "Magdeburg - Sudenburg",
+    "url_id": "magdeburg-sudenburg",
+    "usage_id": "2447781820"
+  },
+  {
+    "name": "Plochingen",
+    "url_id": "plochingen",
+    "usage_id": "1656812890"
+  },
+  {
+    "name": "Wien - Floridsdorf",
+    "url_id": "wien-floridsdorf",
+    "usage_id": "2509890090"
+  },
+  {
+    "name": "Düsseldorf - Im Lighthouse",
+    "url_id": "duesseldorf-derendorf-im-lighthouse",
+    "usage_id": "1312263410"
+  },
+  {
+    "name": "Gifhorn",
+    "url_id": "gifhorn",
+    "usage_id": "1449813910"
+  },
+  {
+    "name": "Hannover - Georgstraße",
+    "url_id": "hannover-georgstrasse",
+    "usage_id": "2447826140"
+  },
+  {
+    "name": "Magdeburg - Am Kroatenweg",
+    "url_id": "magdeburg-kroatenweg",
+    "usage_id": "1452085070"
+  },
+  {
+    "name": "Augsburg",
+    "url_id": "augsburg",
+    "usage_id": "2405742150"
+  },
+  {
+    "name": "Göppingen - Am Autohof",
+    "url_id": "goeppingen-am-autohof",
+    "usage_id": "1658010100"
+  },
+  {
+    "name": "Düsseldorf - In der KÖ Galerie",
+    "url_id": "duesseldorf-in-der-koe-galerie",
+    "usage_id": "1456156730"
+  },
+  {
+    "name": "Wien - Landstraße",
+    "url_id": "wien-landstrasse",
+    "usage_id": "2509875380"
+  },
+  {
+    "name": "Bremen - Neustadt",
+    "url_id": "bremen-neustadt",
+    "usage_id": "2445486020"
+  },
+  {
+    "name": "Wien - Liesing",
+    "url_id": "wien-liesing",
+    "usage_id": "2509898060"
+  },
+  {
+    "name": "Mainz",
+    "url_id": "mainz",
+    "usage_id": "1270049830"
+  },
+  {
+    "name": "Bremen - Süd",
+    "url_id": "bremen-sued",
+    "usage_id": "1450517760"
+  },
+  {
+    "name": "Potsdam",
+    "url_id": "potsdam",
+    "usage_id": "1252501690"
+  },
+  {
+    "name": "Düsseldorf – Holthausen",
+    "url_id": "duesseldorf-holthausen",
+    "usage_id": "1418080850"
+  },
+  {
+    "name": "Heidenheim - Am Brenzpark",
+    "url_id": "heidenheim-am-brenzpark",
+    "usage_id": "1682600400"
+  },
+  {
+    "name": "Heidenheim - Steinheimer Straße",
+    "url_id": "heidenheim-steinheimer",
+    "usage_id": "1895671930"
+  },
+  {
+    "name": "Göppingen - City",
+    "url_id": "goeppingen-city",
+    "usage_id": "1657037530"
+  },
+  {
+    "name": "Backnang",
+    "url_id": "backnang",
+    "usage_id": "1883509840"
+  },
+  {
+    "name": "Bremen - Überseestadt",
+    "url_id": "bremen-ueberseestadt",
+    "usage_id": "1441439090"
+  },
+  {
+    "name": "Raunheim - Ladies",
+    "url_id": "raunheim-women",
+    "usage_id": "2407189780"
+  },
+  {
+    "name": "Mannheim - Neckarau",
+    "url_id": "mannheim-neckarau",
+    "usage_id": "1895682580"
+  },
+  {
+    "name": "Göppingen - Stauferpark",
+    "url_id": "goeppingen-stauferpark",
+    "usage_id": "1666302650"
+  },
+  {
+    "name": "Bretten",
+    "url_id": "bretten",
+    "usage_id": "1895671670"
+  },
+  {
+    "name": "Essen - Kettwig",
+    "url_id": "essen-kettwig",
+    "usage_id": "1254452530"
+  },
+  {
+    "name": "Heilbronn",
+    "url_id": "heilbronn",
+    "usage_id": "2408786580"
+  },
+  {
+    "name": "Wiesbaden - Bahnhofsplatz",
+    "url_id": "wiesbaden-bahnhofsplatz",
+    "usage_id": "1273799520"
+  },
+  {
+    "name": "Goslar",
+    "url_id": "goslar",
+    "usage_id": "1402628810"
+  },
+  {
+    "name": "Raunheim - Mainspitze",
+    "url_id": "raunheim-mainspitze",
+    "usage_id": "2407187030"
+  },
+  {
+    "name": "Asemissen",
+    "url_id": "asemissen",
+    "usage_id": "2017435380"
+  },
+  {
+    "name": "Wiesbaden - Künstlerviertel",
+    "url_id": "wiesbaden-kuenstlerviertel",
+    "usage_id": "2069188770"
+  },
+  {
+    "name": "Mannheim – Im Quartier",
+    "url_id": "mannheim-im-quartier",
+    "usage_id": "1272859330"
+  },
+  {
+    "name": "Esslingen - Adenauerbrücke",
+    "url_id": "esslingen-adenauerbruecke",
+    "usage_id": "1884725920"
+  },
+  {
+    "name": "Winnenden",
+    "url_id": "winnenden",
+    "usage_id": "1883508530"
+  },
+  {
+    "name": "Bad Berka",
+    "url_id": "bad-berka",
+    "usage_id": "999999999"
+  },
+  {
+    "name": "Bünde",
+    "url_id": "buende",
+    "usage_id": "1413034650"
+  },
+  {
+    "name": "Mannheim - Sandhofen",
+    "url_id": "mannheim-sandhofen",
+    "usage_id": "1895675960"
+  },
+  {
+    "name": "Göttingen - An der Uni",
+    "url_id": "goettingen",
+    "usage_id": "1270047300"
+  },
+  {
+    "name": "Hildesheim",
+    "url_id": "hildesheim",
+    "usage_id": "1439644620"
+  },
+  {
+    "name": "Homburg",
+    "url_id": "homburg",
+    "usage_id": "1606418930"
+  },
+  {
+    "name": "Esslingen - Hengstenberg Areal",
+    "url_id": "esslingen-hengstenberg",
+    "usage_id": "1682293180"
+  },
+  {
+    "name": "Bad Boll",
+    "url_id": "bad-boll",
+    "usage_id": "1639731710"
+  },
+  {
+    "name": "Ravensburg",
+    "url_id": "ravensburg",
+    "usage_id": "1884720530"
+  },
+  {
+    "name": "Regensburg - Kirchmeierstraße",
+    "url_id": "regensburg-kirchmeierstrasse",
+    "usage_id": "1370526730"
+  },
+  {
+    "name": "Chemnitz",
+    "url_id": "chemnitz",
+    "usage_id": "99999999"
+  },
+  {
+    "name": "Bad Kreuznach",
+    "url_id": "bad-kreuznach",
+    "usage_id": "1606362470"
+  },
+  {
+    "name": "Marl",
+    "url_id": "marl",
+    "usage_id": "1460836050"
+  },
+  {
+    "name": "Esslingen - Im Dick",
+    "url_id": "esslingen-das-dick",
+    "usage_id": "1549742170"
+  },
+  {
+    "name": "Göttingen - Im Carré",
+    "url_id": "goettingen-im-carre",
+    "usage_id": "1425678230"
+  },
+  {
+    "name": "Wolfenbüttel - City",
+    "url_id": "wolfenbuettel-city",
+    "usage_id": "1424999990"
+  },
+  {
+    "name": "Würzburg - Grombühl",
+    "url_id": "wuerzburg",
+    "usage_id": "2393935800"
+  },
+  {
+    "name": "Merzig - City",
+    "url_id": "merzig-city",
+    "usage_id": "1535834440"
+  },
+  {
+    "name": "Horn",
+    "url_id": "horn",
+    "usage_id": "2017439250"
+  },
+  {
+    "name": "Gräfenhausen",
+    "url_id": "graefenhausen",
+    "usage_id": "2141514170"
+  },
+  {
+    "name": "Bad Rappenau",
+    "url_id": "bad-rappenau",
+    "usage_id": "1895666890"
+  },
+  {
+    "name": "Ettlingen",
+    "url_id": "ettlingen",
+    "usage_id": "1890994800"
+  },
+  {
+    "name": "Regensburg - Pfaffenstein",
+    "url_id": "regensburg-pfaffenstein",
+    "usage_id": "1355827140"
+  },
+  {
+    "name": "Rostock - Innenstadt",
+    "url_id": "rostock-innenstadt",
+    "usage_id": "2447834550"
+  },
+  {
+    "name": "Berlin - Friedrichshain - Ladies",
+    "url_id": "berlin-women-friedrichshain",
+    "usage_id": "1331807400"
+  },
+  {
+    "name": "Zweibrücken",
+    "url_id": "zweibruecken",
+    "usage_id": "1573712750"
+  },
+  {
+    "name": "Merzig - Saarwiesenring",
+    "url_id": "merzig-saarwiesenring",
+    "usage_id": "1584793770"
+  },
+  {
+    "name": "Cloppenburg",
+    "url_id": "cloppenburg",
+    "usage_id": "2449631390"
+  },
+  {
+    "name": "Crailsheim",
+    "url_id": "crailsheim",
+    "usage_id": "1895669100"
+  },
+  {
+    "name": "Idar-Oberstein - Am Kreisel",
+    "url_id": "idar-oberstein-kreisel",
+    "usage_id": "1579541630"
+  },
+  {
+    "name": "Idar-Oberstein - Am Festplatz",
+    "url_id": "idar-oberstein-festplatz",
+    "usage_id": "1572938000"
+  },
+  {
+    "name": "Cottbus",
+    "url_id": "cottbus",
+    "usage_id": "1426282580"
+  },
+  {
+    "name": "Griesheim",
+    "url_id": "griesheim",
+    "usage_id": "2159914070"
+  },
+  {
+    "name": "Groß-Gerau",
+    "url_id": "gross-gerau",
+    "usage_id": "2141532870"
+  },
+  {
+    "name": "Rottenburg",
+    "url_id": "rottenburg",
+    "usage_id": "1895679990"
+  },
+  {
+    "name": "Fellbach",
+    "url_id": "fellbach",
+    "usage_id": "1884717260"
+  },
+  {
+    "name": "Berlin - Gendarmenmarkt",
+    "url_id": "berlin-gendarmenmarkt",
+    "usage_id": "1337443440"
+  },
+  {
+    "name": "Ingolstadt",
+    "url_id": "ingolstadt",
+    "usage_id": "2405757110"
+  },
+  {
+    "name": "Darmstadt - Eberstadt",
+    "url_id": "darmstadt-eberstadt",
+    "usage_id": "2141560220"
+  },
+  {
+    "name": "Frankfurt - Bockenheim",
+    "url_id": "frankfurt-bockenheim",
+    "usage_id": "2158635620"
+  },
+  {
+    "name": "Saarbrücken",
+    "url_id": "saarbruecken",
+    "usage_id": "2406673080"
+  },
+  {
+    "name": "Saarlouis",
+    "url_id": "saarlouis",
+    "usage_id": "1582661160"
+  },
+  {
+    "name": "Frankfurt - Eckenheim",
+    "url_id": "frankfurt-eckenheim",
+    "usage_id": "1291822090"
+  },
+  {
+    "name": "Hamburg - Alsterufer",
+    "url_id": "hamburg-alsterufer",
+    "usage_id": "1210184710"
+  },
+  {
+    "name": "Mönchengladbach - Eicken",
+    "url_id": "moenchengladbach-eicken",
+    "usage_id": "1411679210"
+  },
+  {
+    "name": "Mönchengladbach - Rheydt",
+    "url_id": "moenchengladbach-rheydt",
+    "usage_id": "2445886010"
+  },
+  {
+    "name": "Kaiserslautern",
+    "url_id": "kaiserslautern",
+    "usage_id": "1270072180"
+  },
+  {
+    "name": "Berlin - Hohenschönhausen",
+    "url_id": "berlin-hohenschoenhausen",
+    "usage_id": "2445302340"
+  },
+  {
+    "name": "Darmstadt - Eschollbrücker Straße",
+    "url_id": "darmstadt-eschollbruecker",
+    "usage_id": "2159838350"
+  },
+  {
+    "name": "Berlin - Pankow - Ladies",
+    "url_id": "berlin-women-pankow",
+    "usage_id": "1330510340"
+  },
+  {
+    "name": "Frankfurt - Eschenheimer Turm",
+    "url_id": "frankfurt-eschenheimer-turm",
+    "usage_id": "1285923430"
+  },
+  {
+    "name": "Mörfelden-Walldorf",
+    "url_id": "moerfelden-walldorf",
+    "usage_id": "2141507670"
+  },
+  {
+    "name": "Hamburg - Altona",
+    "url_id": "hamburg-altona",
+    "usage_id": "1382249270"
+  },
+  {
+    "name": "Kassel",
+    "url_id": "kassel",
+    "usage_id": "1255080510"
+  },
+  {
+    "name": "Hamburg - Bahrenfeld",
+    "url_id": "hamburg-bahrenfeld",
+    "usage_id": "2445626240"
+  },
+  {
+    "name": "München - Am Marienplatz",
+    "url_id": "muenchen-innenstadt-am-marienplatz",
+    "usage_id": "1356285290"
+  },
+  {
+    "name": "Singen",
+    "url_id": "singen",
+    "usage_id": "1895686800"
+  },
+  {
+    "name": "Darmstadt - Hauptbahnhof",
+    "url_id": "darmstadt-hauptbahnhof",
+    "usage_id": "2159878580"
+  },
+  {
+    "name": "Berlin - Prenzlauer Berg",
+    "url_id": "berlin-prenzlauer-berg",
+    "usage_id": "1337440790"
+  },
+  {
+    "name": "Kirn",
+    "url_id": "kirn",
+    "usage_id": "1602430120"
+  },
+  {
+    "name": "Darmstadt - Heidelberger Straße",
+    "url_id": "darmstadt-heidelbergerstrasse",
+    "usage_id": "2298339140"
+  },
+  {
+    "name": "Köln - Bayenthal",
+    "url_id": "koeln-bayenthal",
+    "usage_id": "1312319190"
+  },
+  {
+    "name": "Berlin - Schöneberg",
+    "url_id": "berlin-schoeneberg",
+    "usage_id": "2445364210"
+  },
+  {
+    "name": "Frankfurt - Industriehof",
+    "url_id": "frankfurt-industriehof",
+    "usage_id": "2158632650"
+  },
+  {
+    "name": "Frankfurt - Konstablerwache",
+    "url_id": "frankfurt-konstablerwache-zeil",
+    "usage_id": "1289843950"
+  },
+  {
+    "name": "München - DER Bogen",
+    "url_id": "muenchen-bogen",
+    "usage_id": "1862102410"
+  },
+  {
+    "name": "Stuttgart - Bad Cannstatt",
+    "url_id": "stuttgart-bad-cannstatt",
+    "usage_id": "1550017790"
+  },
+  {
+    "name": "Hamburg - Eppendorf",
+    "url_id": "hamburg-eppendorf",
+    "usage_id": "1380428710"
+  },
+  {
+    "name": "Frankfurt - MyZeil",
+    "url_id": "frankfurt-myzeil",
+    "usage_id": "1297314090"
+  },
+  {
+    "name": "Berlin - Steglitz",
+    "url_id": "berlin-steglitz",
+    "usage_id": "1337439340"
+  },
+  {
+    "name": "Stuttgart - Hauptstätter Straße",
+    "url_id": "stuttgart-hauptstaetter",
+    "usage_id": "2406731360"
+  },
+  {
+    "name": "Hamburg - Eppendorf Straßenbahnring",
+    "url_id": "hamburg-eppendorf-strassenbahnring",
+    "usage_id": "1210077860"
+  },
+  {
+    "name": "Köln - Breite Straße",
+    "url_id": "fitnessstudio-koeln-breite-strasse",
+    "usage_id": "1312256840"
+  },
+  {
+    "name": "Darmstadt - Ludwigsplatz - Ladies",
+    "url_id": "darmstadt-women-ludwigsplatz",
+    "usage_id": "2141724950"
+  },
+  {
+    "name": "Stuttgart - Rotebühl",
+    "url_id": "stuttgart-rotebuehl",
+    "usage_id": "1549495970"
+  },
+  {
+    "name": "Berlin - Steglitz - Im Schloss - Ladies",
+    "url_id": "berlin-women-steglitz-im-schloss",
+    "usage_id": "1331805970"
+  },
+  {
+    "name": "Hamburg - Harburg",
+    "url_id": "hamburg-harburg",
+    "usage_id": "1432648510"
+  },
+  {
+    "name": "Darmstadt - Kleyerstraße",
+    "url_id": "darmstadt-kleyerstrasse",
+    "usage_id": "2130588420"
+  },
+  {
+    "name": "München - Haidhausen",
+    "url_id": "muenchen-haidhausen",
+    "usage_id": "1363429860"
+  },
+  {
+    "name": "Stuttgart - Zuffenhausen",
+    "url_id": "stuttgart-zuffenhausen",
+    "usage_id": "1884693470"
+  },
+  {
+    "name": "Darmstadt - Mornewegstraße",
+    "url_id": "darmstadt-mornewegstrasse",
+    "usage_id": "2158735880"
+  },
+  {
+    "name": "Frankfurt - Opernplatz",
+    "url_id": "frankfurt-opernplatz",
+    "usage_id": "1292694020"
+  },
+  {
+    "name": "München - Hofstatt",
+    "url_id": "muenchen-hofstatt",
+    "usage_id": "1218422750"
+  },
+  {
+    "name": "Köln - Ehrenfeld",
+    "url_id": "koeln-ehrenfeld",
+    "usage_id": "1321089840"
+  },
+  {
+    "name": "Darmstadt - Neckarstraße",
+    "url_id": "darmstadt-neckarstrasse",
+    "usage_id": "1268658070"
+  },
+  {
+    "name": "München - Laim",
+    "url_id": "muenchen-laim",
+    "usage_id": "1356095110"
+  },
+  {
+    "name": "Berlin - Steglitz SSC",
+    "url_id": "berlin-steglitz-ssc",
+    "usage_id": "1241680760"
+  },
+  {
+    "name": "Hamburg - Jungfernstieg",
+    "url_id": "hamburg-mitte-jungfernstieg",
+    "usage_id": "1376532610"
+  },
+  {
+    "name": "Süßen",
+    "url_id": "suessen",
+    "usage_id": "1655884420"
+  },
+  {
+    "name": "Hamburg - Innenstadt Dammtorpark",
+    "url_id": "hamburg-innenstadt-dammtorpark",
+    "usage_id": "1210006600"
+  },
+  {
+    "name": "Frankfurt - Ostend",
+    "url_id": "frankfurt-ostend",
+    "usage_id": "1285922650"
+  },
+  {
+    "name": "Köln - Eigelstein Viertel",
+    "url_id": "koeln-eigelstein",
+    "usage_id": "1415452200"
+  },
+  {
+    "name": "München - Moosach",
+    "url_id": "muenchen-moosach",
+    "usage_id": "2405764950"
+  },
+  {
+    "name": "Darmstadt - Ostbahnhof",
+    "url_id": "darmstadt-ostbahnhof",
+    "usage_id": "2158821780"
+  }
+]

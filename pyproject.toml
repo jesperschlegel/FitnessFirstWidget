@@ -1,0 +1,11 @@
+[project]
+name = "fitnessfirst"
+version = "0.1.0"
+description = "A simple iOS scriptable widget to show current occupancy and forecast for Fitness First gyms."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "aiohttp>=3.13.3",
+    "bs4>=0.0.2",
+    "tqdm>=4.67.1",
+]
