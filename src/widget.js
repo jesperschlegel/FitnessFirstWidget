@@ -2,7 +2,15 @@
 // Fitness First Widget
 // =======================================
 
-const CLUBS = await fetchJSON("https://raw.githubusercontent.com/jesperschlegel/FitnessFirstWidget/refs/heads/main/assets/clubs.json");
+const fm = FileManager.local();
+const CACHE_DIR = fm.joinPath(fm.documentsDirectory(), "fitnessfirst-widget-cache");
+if (!fm.fileExists(CACHE_DIR)) fm.createDirectory(CACHE_DIR);
+
+const CLUBS = await fetchWithCache({
+    url: "https://raw.githubusercontent.com/jesperschlegel/FitnessFirstWidget/refs/heads/main/assets/clubs.json",
+    key: "clubs",
+    type: "json"
+});
 const CLUB_ID = args.widgetParameter || "1337440790";
 
 const URL_CURRENT = `https://www.fitnessfirst.de/club/api/checkins/${CLUB_ID}`;
@@ -48,6 +56,63 @@ const levelColor = (level) => {
 
 const formatTime = (t) => t?.split(":").slice(0, 2).join(":") ?? "--:--";
 
+// ---------- Cache Helpers ----------
+function cachePaths(key) {
+    return {
+        data: fm.joinPath(CACHE_DIR, `${key}.data`),
+        meta: fm.joinPath(CACHE_DIR, `${key}.meta.json`)
+    };
+}
+
+async function fetchWithCache({ url, key, type = "json" }) {
+    const { data, meta } = cachePaths(key);
+
+    let headers = {};
+    if (fm.fileExists(meta)) {
+        const metaData = JSON.parse(fm.readString(meta));
+        if (metaData.etag) headers["If-None-Match"] = metaData.etag;
+        if (metaData.lastModified) headers["If-Modified-Since"] = metaData.lastModified;
+    }
+
+    try {
+        const req = new Request(url);
+        req.headers = headers;
+        req.method = "GET";
+
+        if (type === "json") {
+            const res = await req.load();
+            if (req.response.statusCode === 304 && fm.fileExists(data)) {
+                return JSON.parse(fm.readString(data));
+            }
+
+            fm.writeString(data, res.toRawString());
+            fm.writeString(meta, JSON.stringify({
+                etag: req.response.headers["ETag"],
+                lastModified: req.response.headers["Last-Modified"],
+                cachedAt: Date.now()
+            }));
+            return JSON.parse(res.toRawString());
+        }
+
+        if (type === "image") {
+            const img = await req.loadImage();
+            fm.writeImage(data, img);
+            fm.writeString(meta, JSON.stringify({
+                etag: req.response.headers["ETag"],
+                lastModified: req.response.headers["Last-Modified"],
+                cachedAt: Date.now()
+            }));
+            return img;
+        }
+    } catch (err) {
+        if (fm.fileExists(data)) {
+            if (type === "json") return JSON.parse(fm.readString(data));
+            if (type === "image") return fm.readImage(data);
+        }
+        throw err;
+    }
+}
+
 // ---------- Bar Chart ----------
 function drawBarChart(items, opening, closing) {
     const ctx = new DrawContext();
@@ -57,7 +122,6 @@ function drawBarChart(items, opening, closing) {
 
     const barWidth = (WIDTH - GAP * items.length) / items.length;
 
-    // Draw bars
     items.forEach((item, i) => {
         const h = Math.min(Math.max(item.percentage, 0), 100) / 100 * HEIGHT;
         const x = i * (barWidth + GAP);
@@ -66,7 +130,6 @@ function drawBarChart(items, opening, closing) {
         ctx.fillRect(new Rect(x, y, barWidth, h));
     });
 
-    // Draw opening/closing labels
     ctx.setFont(Font.systemFont(8));
     ctx.setTextColor(COLORS.grayText);
 
@@ -92,7 +155,6 @@ async function createWidget() {
             fetchJSON(URL_FORECAST),
         ]);
     } catch (e) {
-        console.error(e);
         widget.addText("⚠️ Load error");
         return widget;
     }
@@ -136,7 +198,12 @@ async function createWidget() {
     headerRight.layoutVertically();
     headerRight.centerAlignContent();
 
-    let image = await new Request("https://raw.githubusercontent.com/jesperschlegel/FitnessFirstWidget/refs/heads/main/assets/logo.png").loadImage();
+    let image = await fetchWithCache({
+        url: "https://raw.githubusercontent.com/jesperschlegel/FitnessFirstWidget/refs/heads/main/assets/logo.png",
+        key: "logo",
+        type: "image"
+    });
+
     const imgElement = headerRight.addImage(image);
     imgElement.imageSize = new Size(45, 45);
     imgElement.cornerRadius = 8;

@@ -21,7 +21,7 @@ A simple iOS widget that shows the current occupancy of FitnessFirst clubs, dire
 3. Add the Widget Script
     - Open Scriptable
     - Tap the + icon to create a new script
-    - Copy and paste the [widget source](https://raw.githubusercontent.com/jesperschlegel/FitnessFirstWidget/refs/heads/main/widget.js) code into the script
+    - Copy and paste the [widget source](https://raw.githubusercontent.com/jesperschlegel/FitnessFirstWidget/refs/heads/main/loader.js) code into the script
 4. Create the Widget on the Home Screen
     - Long press on your home screen and tap Edit Home Screen → + → Scriptable
     - Select the medium widget size
