@@ -28,6 +28,9 @@ A simple iOS widget that shows the current occupancy of FitnessFirst clubs, dire
     - Select the script you just added
     - Tap Edit Widget and enter your Club ID as a parameter
 
+## Bonus
+Set the widget option "When Interacting" to "Open URL" and enter "com.netpulse.fitnessfirst://" as the URL, for a click on the widget to open the FitnessFirst-App.
+
 ## ⚠️ Disclaimer
 This project is not affiliated with, endorsed by, or in any way officially connected to Fitness First or any of its subsidiaries or partners.
 All trademarks, brand names, and logos belong to their respective owners.
