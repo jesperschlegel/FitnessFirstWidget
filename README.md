@@ -18,7 +18,7 @@ A simple iOS widget that shows the current occupancy of FitnessFirst clubs, dire
 ## Installation
 1. Install [Scriptable](https://apps.apple.com/us/app/scriptable/id1405459188?uo=4)
 2. Add the Widget Script
-    - Download the [widget](https://github.com/jesperschlegel/FitnessFirstWidget/blob/e60a5ee8a9832c00581adfc3637fce803b264f2d/loader.js) and click "Open In Scriptable" ![Download Widget](docs/downloadButton.png)
+    - Download the [widget](https://github.com/jesperschlegel/FitnessFirstWidget/blob/main/fitnessFirstWidget.js) and click "Open In Scriptable" ![Download Widget](docs/downloadButton.png)
     - Click on "Add to my Scripts"
 3. Find and copy the Club ID for your FitnessFirst location in the table below (last column)
 4. Create the Widget on the Home Screen
