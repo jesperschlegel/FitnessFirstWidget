@@ -34,6 +34,7 @@ Set the widget option "When Interacting" to "Open URL" and enter `com.netpulse.f
 This project is not affiliated with, endorsed by, or in any way officially connected to Fitness First or any of its subsidiaries or partners.
 All trademarks, brand names, and logos belong to their respective owners.
 The widget uses publicly accessible data and is intended for personal and informational use only.
+This widget collects anonymous usage statistics.
 
 # Club IDs
 

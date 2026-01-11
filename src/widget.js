@@ -2,6 +2,8 @@
 // Fitness First Widget
 // =======================================
 
+const VERSION = "1.0.0";
+
 const fm = FileManager.local();
 const CACHE_DIR = fm.joinPath(fm.documentsDirectory(), "fitnessfirst-widget-cache");
 if (!fm.fileExists(CACHE_DIR)) fm.createDirectory(CACHE_DIR);
@@ -259,8 +261,89 @@ async function createWidget() {
     return widget;
 }
 
+// ---------- Umami ----------
+
+const SESSION_FILE = "umami_session_id.txt";
+
+function getSessionId() {
+    const path = fm.joinPath(fm.documentsDirectory(), SESSION_FILE);
+    if (fm.fileExists(path)) {
+        return fm.readString(path);
+    }
+    return null;
+}
+
+function saveSessionId(sessionId) {
+    const path = fm.joinPath(fm.documentsDirectory(), SESSION_FILE);
+    fm.writeString(path, sessionId);
+}
+
+function getUmamiPayload(sessionId) {
+    const screen = Device.screenSize();
+
+    const payload = {
+        hostname: "ffw.com",
+        language: Device.locale(),
+        referrer: "",
+        screen: `${screen.width}x${screen.height}`,
+        title: "widget",
+        url: "/",
+        website: "d4cf6619-60e3-405a-a366-02084a109ad9",
+        name: "widget_run",
+        data: {
+            widget_version: VERSION,
+            device: {
+                name: Device.name(),
+                isUsingDarkApppearance: Device.isUsingDarkAppearance(),
+                locale: Device.locale(),
+                language: Device.language(),
+                screen: `${screen.width}x${screen.height}`,
+                operating_system: Device.systemName(),
+                operating_system_version: Device.systemVersion(),
+                model: Device.model(),
+                brand: "Apple",
+            },
+            user: {
+                club_id: CLUB_ID,
+            }
+        }
+    }
+    
+    if (sessionId) payload.id = sessionId;
+    
+    return payload;
+}
+
+async function sendUmamiEvent() {
+    const existingSessionId = getSessionId();
+    const payload = getUmamiPayload(existingSessionId);
+    const req = new Request("https://cloud.umami.is/api/send");
+    req.method = "POST";
+    req.headers = {
+        "Content-Type": "application/json",
+        "User-Agent": `FitnessFirstWidget/${VERSION} (${Device.systemName()} ${Device.systemVersion()})`
+    };
+    req.body = JSON.stringify(
+        {
+            type: "event",
+            payload: payload
+        }
+    );
+
+    try {
+        const response = await req.loadJSON();
+        const returnedSessionId = response?.sessionId;
+        if (!existingSessionId && returnedSessionId) {
+            saveSessionId(returnedSessionId);
+        }
+    } catch (e) {
+        // Ignore errors
+    }
+}
+
 // ---------- Run ----------
 const widget = await createWidget();
+await sendUmamiEvent();
 
 if (config.runsInWidget) {
     Script.setWidget(widget);
