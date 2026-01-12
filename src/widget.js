@@ -2,7 +2,7 @@
 // Fitness First Widget
 // =======================================
 
-const VERSION = "1.0.0";
+const VERSION = "1.0.1";
 
 const fm = FileManager.local();
 const CACHE_DIR = fm.joinPath(fm.documentsDirectory(), "fitnessfirst-widget-cache");
@@ -43,6 +43,19 @@ async function fetchJSON(url) {
 // ---------- Helpers ----------
 const barColor = (item) =>
     item.isCurrent ? COLORS.current : item.isFuture ? COLORS.future : COLORS.past;
+
+const levelLabel = (level) => {
+    switch (level.toLowerCase()) {
+        case "low":
+            return "Niedrig";
+        case "normal":
+            return "Normal";
+        case "high":
+            return "Hoch";
+        default:
+            return "Unbekannt";
+    }
+};
 
 const levelColor = (level) => {
     switch (level.toLowerCase()) {
@@ -230,7 +243,7 @@ async function createWidget() {
         percent.font = Font.boldSystemFont(36);
         percent.textColor = Color.white();
 
-        const level = left.addText(current.level.toUpperCase());
+        const level = left.addText(levelLabel(current.level));
         level.font = Font.systemFont(12);
         level.textColor = levelColor(current.level);
     } else {
