@@ -14,6 +14,7 @@ const CLUBS = await fetchWithCache({
     type: "json"
 });
 const CLUB_ID = args.widgetParameter || "1337440790";
+const SELECTED_CLUB = CLUBS.find(c => c.usage_id === CLUB_ID);
 
 const URL_CURRENT = `https://www.fitnessfirst.de/club/api/checkins/${CLUB_ID}`;
 const URL_FORECAST = `https://www.fitnessfirst.de/club/api/usage/week/${CLUB_ID}`;
@@ -178,7 +179,7 @@ async function createWidget() {
     headerLeft.spacing = 2;
     headerLeft.addSpacer(10);
 
-    const clubText = headerLeft.addText(CLUBS.find(c => c.usage_id === CLUB_ID)?.name || "Unbekanntes Studio");
+    const clubText = headerLeft.addText(SELECTED_CLUB?.name || "Unbekanntes Studio");
     clubText.font = Font.boldSystemFont(14);
     clubText.textColor = Color.white();
 
@@ -304,7 +305,7 @@ function getUmamiPayload(sessionId) {
                 brand: "Apple",
             },
             user: {
-                club_id: CLUB_ID,
+                club: SELECTED_CLUB
             }
         }
     }
