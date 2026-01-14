@@ -1,5 +1,6 @@
 import asyncio
 import json
+import re
 from collections import defaultdict
 
 import aiohttp
@@ -76,11 +77,49 @@ async def main():
             if res:
                 results.append(res)
 
+    # Sort by actual club name
+    results.sort(key=lambda x: x["url_id"])
+
     # Save to JSON
     with open("clubs.json", "w", encoding="utf-8") as f:
         json.dump(results, f, ensure_ascii=False, indent=2)
 
     print(f"Extracted {len(results)} clubs. Saved to clubs.json.")
+    
+    # Update README.md
+    update_readme(results)
+
+
+def update_readme(clubs):
+    """Update the README.md file with the club list."""
+    readme_path = "README.md"
+    
+    # Generate the table
+    table_lines = ["| Name                                                    | ID         |",
+                   "|---------------------------------------------------------|------------|"]
+    for club in clubs:
+        # Remove "Fitnessstudio" and strip whitespace
+        display_name = club['name'].replace("Fitnessstudio", "").strip()
+        table_lines.append(f"| {display_name:<55} | {club['usage_id']:<10} |")
+    
+    table_content = "\n".join(table_lines)
+    
+    # Read the existing README
+    with open(readme_path, "r", encoding="utf-8") as f:
+        content = f.read()
+    
+    # Find the table section and replace it
+    pattern = r'\| Name\s+\| ID\s+\|\n\|-+\|-+\|\n(?:\|.+\|\n)+'
+    
+    if re.search(pattern, content):
+        updated_content = re.sub(pattern, table_content + "\n", content)
+        
+        with open(readme_path, "w", encoding="utf-8") as f:
+            f.write(updated_content)
+        
+        print(f"Updated README.md with {len(clubs)} clubs.")
+    else:
+        print("Warning: Could not find table in README.md to update.")
 
 
 if __name__ == "__main__":
