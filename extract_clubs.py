@@ -98,7 +98,9 @@ def update_readme(clubs):
     table_lines = ["| Name                                                    | ID         |",
                    "|---------------------------------------------------------|------------|"]
     for club in clubs:
-        table_lines.append(f"| {club['name']:<55} | {club['usage_id']:<10} |")
+        # Remove "Fitnessstudio" and strip whitespace
+        display_name = club['name'].replace("Fitnessstudio", "").strip()
+        table_lines.append(f"| {display_name:<55} | {club['usage_id']:<10} |")
     
     table_content = "\n".join(table_lines)
     
