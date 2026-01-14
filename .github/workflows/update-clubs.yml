@@ -59,6 +59,7 @@ jobs:
             
             Please review the changes before merging.
           branch: update-clubs-data
+          base: main
           delete-branch: true
           labels: automated
 
