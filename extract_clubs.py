@@ -50,8 +50,10 @@ async def fetch_club_id(session, sem, club_url_id, club_name):
         soup = BeautifulSoup(html, "html.parser")
         section = soup.find("section", class_="show-club-checkin")
         if section and section.has_attr("data-club"):
+            # Remove "Fitnessstudio" and strip whitespace
+            display_name = club_name.replace("Fitnessstudio", "").strip()
             return {
-                "name": club_name,
+                "name": display_name,
                 "url_id": club_url_id,
                 "usage_id": section["data-club"]
             }
@@ -78,7 +80,7 @@ async def main():
                 results.append(res)
 
     # Sort by actual club name
-    results.sort(key=lambda x: x["url_id"])
+    results.sort(key=lambda x: x["name"])
 
     # Save to JSON
     with open("clubs.json", "w", encoding="utf-8") as f:
@@ -98,9 +100,7 @@ def update_readme(clubs):
     table_lines = ["| Name                                                    | ID         |",
                    "|---------------------------------------------------------|------------|"]
     for club in clubs:
-        # Remove "Fitnessstudio" and strip whitespace
-        display_name = club['name'].replace("Fitnessstudio", "").strip()
-        table_lines.append(f"| {display_name:<55} | {club['usage_id']:<10} |")
+        table_lines.append(f"| {club['name']:<55} | {club['usage_id']:<10} |")
     
     table_content = "\n".join(table_lines)
     
