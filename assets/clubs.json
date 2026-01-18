@@ -93,7 +93,7 @@
     "name": "Berlin - Steglitz - Im Schloss - Ladies",
     "url_id": "berlin-women-steglitz-im-schloss",
     "usage_id": "1331805970",
-    "netpulse_uuid": null
+    "netpulse_uuid": "b037b6b3-785b-487a-86ec-c456ff06783e"
   },
   {
     "name": "Berlin - Steglitz SSC",
@@ -312,7 +312,7 @@
     "netpulse_uuid": "ffcd821f-0fd7-476d-a8f4-6621f027d1b7"
   },
   {
-    "name": "Dresden - Prager Spitze",
+    "name": "Dresden - Prager Straße",
     "url_id": "dresden-prager-spitze",
     "usage_id": "1274276050",
     "netpulse_uuid": "5215f877-5b60-4ad1-969a-a34602469a01"
@@ -810,7 +810,7 @@
     "netpulse_uuid": "3171bb71-f62e-41f2-b0a2-8a65b163f66d"
   },
   {
-    "name": "Leipzig",
+    "name": "Leipzig - Messehof",
     "url_id": "leipzig-mitte-messehof",
     "usage_id": "1264196080",
     "netpulse_uuid": "b5aef04c-bc25-47fa-8ea5-a538d291b9ad"
@@ -837,7 +837,7 @@
     "name": "Magdeburg - Am Kroatenweg",
     "url_id": "magdeburg-kroatenweg",
     "usage_id": "1452085070",
-    "netpulse_uuid": null
+    "netpulse_uuid": "4b6c15f2-12c9-4f22-8f89-c2c9f42dbdf5"
   },
   {
     "name": "Magdeburg - Sudenburg",
@@ -1206,7 +1206,7 @@
     "netpulse_uuid": "7bf200a4-53d8-4fd0-87d0-a5496d31229d"
   },
   {
-    "name": "Wolfenbüttel - City",
+    "name": "Wolfenbüttel City",
     "url_id": "wolfenbuettel-city",
     "usage_id": "1424999990",
     "netpulse_uuid": "7daa30b6-cff7-4c09-9572-9a5b397c541f"
