@@ -18,6 +18,7 @@ const SELECTED_CLUB = CLUBS.find(c => c.usage_id === CLUB_ID);
 
 const URL_CURRENT = `https://www.fitnessfirst.de/club/api/checkins/${CLUB_ID}`;
 const URL_FORECAST = `https://www.fitnessfirst.de/club/api/usage/week/${CLUB_ID}`;
+const URL_CLUB_INFO = `https://fitnessfirst.netpulse.com/np/exerciser/club/contacts?club=${SELECTED_CLUB?.netpulse_uuid}`;
 
 // ---------- Constants ----------
 const WIDTH = 220;
@@ -158,17 +159,32 @@ function drawBarChart(items, opening, closing) {
     return ctx.getImage();
 }
 
+function getOpeningHours(clubInfoData, fallbackOpening, fallbackClosing) {
+    const workingHours = clubInfoData?.workingHours
+    const days = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
+    const todaySlug = days[(new Date().getDay() + 7) % 7];
+    const todayWorkingHoursString = workingHours ? workingHours[todaySlug] : null;
+    if (!todayWorkingHoursString) return { opening: fallbackOpening, closing: fallbackClosing };
+    const matches = todayWorkingHoursString.match(/\b\d{1,2}:\d{2}\b/g);
+    if (matches && matches.length >= 2) {
+        return { opening: matches[0], closing: matches[1] };
+    } else {
+        return { opening: fallbackOpening, closing: fallbackClosing };
+    }
+}
+
 // ---------- Widget ----------
 async function createWidget() {
     const widget = new ListWidget();
     widget.setPadding(12, 12, 12, 12);
 
     // ---------- Fetch data ----------
-    let currentData, forecastData;
+    let currentData, forecastData, clubInfoData;
     try {
-        [currentData, forecastData] = await Promise.all([
+        [currentData, forecastData, clubInfoData] = await Promise.all([
             fetchJSON(URL_CURRENT),
             fetchJSON(URL_FORECAST),
+            fetchJSON(URL_CLUB_INFO),
         ]);
     } catch (e) {
         widget.addText("⚠️ Load error");
@@ -179,7 +195,7 @@ async function createWidget() {
     const current = currentItems.find((i) => i.isCurrent);
 
     const today = Object.values(forecastData?.data ?? {}).find((item) => item.isToday);
-    const { startTime: open, endTime: close, items: forecastItems = [] } = today?.data ?? {};
+    const { startTime: startTime, endTime: endTime, items: forecastItems = [] } = today?.data ?? {};
 
     // ---------- Header ----------
     const header = widget.addStack();
@@ -200,7 +216,8 @@ async function createWidget() {
     const pad = (n) => n.toString().padStart(2, "0");
     const formattedTime = `${pad(now.getHours())}:${pad(now.getMinutes())}`;
 
-    const openingHoursText = headerLeft.addText(`Öffnungszeiten: ${formatTime(open)} - ${formatTime(close)}`);
+    const openingHours = getOpeningHours(clubInfoData, startTime, endTime);
+    const openingHoursText = headerLeft.addText(`Öffnungszeiten: ${formatTime(openingHours.opening)} - ${formatTime(openingHours.closing)}`);
     openingHoursText.font = Font.mediumSystemFont(12);
     openingHoursText.textColor = COLORS.grayText;
 
@@ -248,9 +265,6 @@ async function createWidget() {
         level.textColor = levelColor(current.level);
     } else {
         left.addText("--");
-        const closedText = left.addText("Aktuell geschlossen");
-        closedText.font = Font.mediumSystemFont(12);
-        closedText.textColor = COLORS.grayText;
     }
 
     // RIGHT: FORECAST
@@ -261,7 +275,7 @@ async function createWidget() {
     right.addSpacer(2);
 
     if (forecastItems.length > 0) {
-        const chartImage = drawBarChart(forecastItems, open, close);
+        const chartImage = drawBarChart(forecastItems, startTime, endTime);
         const chart = right.addImage(chartImage);
         chart.imageSize = new Size(WIDTH, HEIGHT);
     }
@@ -322,9 +336,9 @@ function getUmamiPayload(sessionId) {
             }
         }
     }
-    
+
     if (sessionId) payload.id = sessionId;
-    
+
     return payload;
 }
 
