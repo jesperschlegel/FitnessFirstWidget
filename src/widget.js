@@ -162,7 +162,7 @@ function drawBarChart(items, opening, closing) {
 function getOpeningHours(clubInfoData, fallbackOpening, fallbackClosing) {
     const workingHours = clubInfoData?.workingHours
     const days = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
-    const todaySlug = days[(new Date().getDay() + 7) % 7];
+    const todaySlug = days[(new Date().getDay() + 6) % 7];
     const todayWorkingHoursString = workingHours ? workingHours[todaySlug] : null;
     if (!todayWorkingHoursString) return { opening: fallbackOpening, closing: fallbackClosing };
     const matches = todayWorkingHoursString.match(/\b\d{1,2}:\d{2}\b/g);
