@@ -2,1026 +2,1231 @@
   {
     "name": "Aalen",
     "url_id": "aalen",
-    "usage_id": "1688438740"
+    "usage_id": "1688438740",
+    "netpulse_uuid": "1515d5d9-cc50-4a05-ac7a-c82ac62498c9"
   },
   {
     "name": "Asemissen",
     "url_id": "asemissen",
-    "usage_id": "2017435380"
+    "usage_id": "2017435380",
+    "netpulse_uuid": "bcb2e6e4-942f-461e-8d2e-e4c2b17411fd"
   },
   {
     "name": "Augsburg",
     "url_id": "augsburg",
-    "usage_id": "2405742150"
+    "usage_id": "2405742150",
+    "netpulse_uuid": "564cd675-6a1b-4112-aa0e-58e19a77089e"
   },
   {
     "name": "Backnang",
     "url_id": "backnang",
-    "usage_id": "1883509840"
+    "usage_id": "1883509840",
+    "netpulse_uuid": "79bbd43b-49eb-46c2-bc9a-e1eefd97a695"
   },
   {
     "name": "Bad Berka",
     "url_id": "bad-berka",
-    "usage_id": "999999999"
+    "usage_id": "999999999",
+    "netpulse_uuid": "c433c999-d7aa-4079-8cea-548c77d7d071"
   },
   {
     "name": "Bad Boll",
     "url_id": "bad-boll",
-    "usage_id": "1639731710"
+    "usage_id": "1639731710",
+    "netpulse_uuid": "e3515c1e-d0c6-4e3c-9189-3a2a3a9da032"
   },
   {
     "name": "Bad Kreuznach",
     "url_id": "bad-kreuznach",
-    "usage_id": "1606362470"
+    "usage_id": "1606362470",
+    "netpulse_uuid": "7a69a4a5-67fd-4d7a-a963-dbb2c38d3362"
   },
   {
     "name": "Bad Rappenau",
     "url_id": "bad-rappenau",
-    "usage_id": "1895666890"
+    "usage_id": "1895666890",
+    "netpulse_uuid": "ca533225-07da-4c56-85f7-9532ec6c1e21"
   },
   {
     "name": "Berlin - Friedrichshain - Ladies",
     "url_id": "berlin-women-friedrichshain",
-    "usage_id": "1331807400"
+    "usage_id": "1331807400",
+    "netpulse_uuid": "79856219-713f-46de-af3e-8d2e8bdd2b1c"
   },
   {
     "name": "Berlin - Gendarmenmarkt",
     "url_id": "berlin-gendarmenmarkt",
-    "usage_id": "1337443440"
+    "usage_id": "1337443440",
+    "netpulse_uuid": "2de10248-fe00-4f0c-96e6-add493975d92"
   },
   {
     "name": "Berlin - Hohenschönhausen",
     "url_id": "berlin-hohenschoenhausen",
-    "usage_id": "2445302340"
+    "usage_id": "2445302340",
+    "netpulse_uuid": "c926a4d5-ff59-4db2-a9c8-530429790168"
   },
   {
     "name": "Berlin - Pankow - Ladies",
     "url_id": "berlin-women-pankow",
-    "usage_id": "1330510340"
+    "usage_id": "1330510340",
+    "netpulse_uuid": "40d82714-06e4-42f0-b818-fee666dda030"
   },
   {
     "name": "Berlin - Prenzlauer Berg",
     "url_id": "berlin-prenzlauer-berg",
-    "usage_id": "1337440790"
+    "usage_id": "1337440790",
+    "netpulse_uuid": "15669815-6f0d-43fb-9c6b-d5057dd604e7"
   },
   {
     "name": "Berlin - Schöneberg",
     "url_id": "berlin-schoeneberg",
-    "usage_id": "2445364210"
+    "usage_id": "2445364210",
+    "netpulse_uuid": "ac28644d-7fa6-4f85-80e2-48be1a30e43f"
   },
   {
     "name": "Berlin - Steglitz",
     "url_id": "berlin-steglitz",
-    "usage_id": "1337439340"
+    "usage_id": "1337439340",
+    "netpulse_uuid": "517ffc0e-076c-483f-82bc-f67b73f330ab"
   },
   {
     "name": "Berlin - Steglitz - Im Schloss - Ladies",
     "url_id": "berlin-women-steglitz-im-schloss",
-    "usage_id": "1331805970"
+    "usage_id": "1331805970",
+    "netpulse_uuid": null
   },
   {
     "name": "Berlin - Steglitz SSC",
     "url_id": "berlin-steglitz-ssc",
-    "usage_id": "1241680760"
+    "usage_id": "1241680760",
+    "netpulse_uuid": "b047e608-b185-46d4-994a-958a90ba1875"
   },
   {
     "name": "Berlin - Wedding",
     "url_id": "berlin-wedding",
-    "usage_id": "2447840130"
+    "usage_id": "2447840130",
+    "netpulse_uuid": "ca7602a2-d767-4d02-9702-2019e0ec68b3"
   },
   {
     "name": "Berlin - Wilmersdorf",
     "url_id": "berlin-wilmersdorf",
-    "usage_id": "1330880140"
+    "usage_id": "1330880140",
+    "netpulse_uuid": "15bd379e-cdc8-483d-a4b3-279734fe16c0"
   },
   {
     "name": "Berlin - Zehlendorfer Welle",
     "url_id": "berlin-zehlendorfer-welle",
-    "usage_id": "1338053500"
+    "usage_id": "1338053500",
+    "netpulse_uuid": "a8a8aaa8-c948-49ba-8457-f5d79c87723e"
   },
   {
     "name": "Biberach",
     "url_id": "biberach",
-    "usage_id": "1890996580"
+    "usage_id": "1890996580",
+    "netpulse_uuid": "82348d95-550c-4778-bfe4-d26048e9f1ab"
   },
   {
     "name": "Bielefeld - Am Boulevard",
     "url_id": "bielefeld-boulevard-1",
-    "usage_id": "1255748020"
+    "usage_id": "1255748020",
+    "netpulse_uuid": "6ccd1157-3463-4223-8a0e-7b89f6449fe0"
   },
   {
     "name": "Bielefeld - Herforder Straße",
     "url_id": "bielefeld-mitte",
-    "usage_id": "1416529920"
+    "usage_id": "1416529920",
+    "netpulse_uuid": "295f3d22-cbd8-4b23-ab92-87f8c9b95f41"
   },
   {
     "name": "Bietigheim-Bissingen",
     "url_id": "bietigheim-bissingen",
-    "usage_id": "1884726910"
+    "usage_id": "1884726910",
+    "netpulse_uuid": "e189af38-526b-4b5b-8d72-1a708d983068"
   },
   {
     "name": "Blieskastel",
     "url_id": "blieskastel",
-    "usage_id": "1576472940"
+    "usage_id": "1576472940",
+    "netpulse_uuid": "1a446ade-48ff-40ca-bbc5-a56308ee4516"
   },
   {
     "name": "Blomberg",
     "url_id": "blomberg",
-    "usage_id": "2017439540"
+    "usage_id": "2017439540",
+    "netpulse_uuid": "506e44d4-7016-425d-bd0f-31df7ee601ab"
   },
   {
     "name": "Bonn",
     "url_id": "bonn",
-    "usage_id": "1319906560"
+    "usage_id": "1319906560",
+    "netpulse_uuid": "b2651147-c37b-4df0-a990-d5aee4c67778"
   },
   {
     "name": "Braunschweig",
     "url_id": "braunschweig",
-    "usage_id": "1430297550"
+    "usage_id": "1430297550",
+    "netpulse_uuid": "f3561f90-754b-460f-803a-4cb467398008"
   },
   {
     "name": "Bremen - Neustadt",
     "url_id": "bremen-neustadt",
-    "usage_id": "2445486020"
+    "usage_id": "2445486020",
+    "netpulse_uuid": "6d75f64e-5fbf-4e78-bc44-d29db31be51c"
   },
   {
     "name": "Bremen - Süd",
     "url_id": "bremen-sued",
-    "usage_id": "1450517760"
+    "usage_id": "1450517760",
+    "netpulse_uuid": "b822645c-94fa-4262-8806-48e6b1dd12fa"
   },
   {
     "name": "Bremen - Überseestadt",
     "url_id": "bremen-ueberseestadt",
-    "usage_id": "1441439090"
+    "usage_id": "1441439090",
+    "netpulse_uuid": "4013c4c4-6829-451b-b1ca-2ad98370d2a2"
   },
   {
     "name": "Bretten",
     "url_id": "bretten",
-    "usage_id": "1895671670"
+    "usage_id": "1895671670",
+    "netpulse_uuid": "d69e85ec-6768-4d23-87e5-de5f877b3432"
   },
   {
     "name": "Bünde",
     "url_id": "buende",
-    "usage_id": "1413034650"
+    "usage_id": "1413034650",
+    "netpulse_uuid": "d2d76bca-2ebe-40cc-abad-fe4cfade444e"
   },
   {
     "name": "Chemnitz",
     "url_id": "chemnitz",
-    "usage_id": "99999999"
+    "usage_id": "99999999",
+    "netpulse_uuid": null
   },
   {
     "name": "Cloppenburg",
     "url_id": "cloppenburg",
-    "usage_id": "2449631390"
+    "usage_id": "2449631390",
+    "netpulse_uuid": "e1a6d9a6-1c02-4cd1-b53b-afc20e0c15bc"
   },
   {
     "name": "Cottbus",
     "url_id": "cottbus",
-    "usage_id": "1426282580"
+    "usage_id": "1426282580",
+    "netpulse_uuid": "9ec84e6d-91b5-43fc-9628-d42a7b987fe0"
   },
   {
     "name": "Crailsheim",
     "url_id": "crailsheim",
-    "usage_id": "1895669100"
+    "usage_id": "1895669100",
+    "netpulse_uuid": "f9800e66-3b0b-44aa-a093-b73f50d05676"
   },
   {
     "name": "Darmstadt - Eberstadt",
     "url_id": "darmstadt-eberstadt",
-    "usage_id": "2141560220"
+    "usage_id": "2141560220",
+    "netpulse_uuid": "dee680ee-aab2-44f9-a29e-81f53df03c1c"
   },
   {
     "name": "Darmstadt - Eschollbrücker Straße",
     "url_id": "darmstadt-eschollbruecker",
-    "usage_id": "2159838350"
+    "usage_id": "2159838350",
+    "netpulse_uuid": "ce901992-4385-48df-886b-3871860e61b5"
   },
   {
     "name": "Darmstadt - Hauptbahnhof",
     "url_id": "darmstadt-hauptbahnhof",
-    "usage_id": "2159878580"
+    "usage_id": "2159878580",
+    "netpulse_uuid": "4a050641-35cb-4a6e-9b5e-1c384225fe7d"
   },
   {
     "name": "Darmstadt - Heidelberger Straße",
     "url_id": "darmstadt-heidelbergerstrasse",
-    "usage_id": "2298339140"
+    "usage_id": "2298339140",
+    "netpulse_uuid": "3909950f-31d1-44c3-9885-fbb51e7d97ec"
   },
   {
     "name": "Darmstadt - Kleyerstraße",
     "url_id": "darmstadt-kleyerstrasse",
-    "usage_id": "2130588420"
+    "usage_id": "2130588420",
+    "netpulse_uuid": "e9de4a7c-3f9e-45fc-af09-2dae824319d8"
   },
   {
     "name": "Darmstadt - Ludwigsplatz - Ladies",
     "url_id": "darmstadt-women-ludwigsplatz",
-    "usage_id": "2141724950"
+    "usage_id": "2141724950",
+    "netpulse_uuid": "704309b5-3f78-4006-b330-a1b63aae3e23"
   },
   {
     "name": "Darmstadt - Mornewegstraße",
     "url_id": "darmstadt-mornewegstrasse",
-    "usage_id": "2158735880"
+    "usage_id": "2158735880",
+    "netpulse_uuid": "255339c4-c6f0-4ce5-a38e-0bae414ee065"
   },
   {
     "name": "Darmstadt - Neckarstraße",
     "url_id": "darmstadt-neckarstrasse",
-    "usage_id": "1268658070"
+    "usage_id": "1268658070",
+    "netpulse_uuid": "818e661e-59f7-48d1-bbbd-8b504e07b077"
   },
   {
     "name": "Darmstadt - Ostbahnhof",
     "url_id": "darmstadt-ostbahnhof",
-    "usage_id": "2158821780"
+    "usage_id": "2158821780",
+    "netpulse_uuid": "1b793462-e413-49fb-b971-ada1e11dc90e"
   },
   {
     "name": "Darmstadt - Pfnorstraße",
     "url_id": "darmstadt-pfnorstrasse",
-    "usage_id": "2141663170"
+    "usage_id": "2141663170",
+    "netpulse_uuid": "86f73b33-9821-4ff9-87b5-2d5dde0711e3"
   },
   {
     "name": "Datteln",
     "url_id": "datteln",
-    "usage_id": "1463335190"
+    "usage_id": "1463335190",
+    "netpulse_uuid": "cf6669f8-7180-4a79-bb25-a45ff39d0d27"
   },
   {
     "name": "Detmold",
     "url_id": "detmold",
-    "usage_id": "2017436370"
+    "usage_id": "2017436370",
+    "netpulse_uuid": "2b456e04-ba71-4812-8c97-b8612bb902a2"
   },
   {
     "name": "Dorsten",
     "url_id": "dorsten",
-    "usage_id": "1460068730"
+    "usage_id": "1460068730",
+    "netpulse_uuid": "eb4df981-202a-4c16-8342-3324f17016a2"
   },
   {
     "name": "Dortmund",
     "url_id": "dortmund",
-    "usage_id": "2445876250"
+    "usage_id": "2445876250",
+    "netpulse_uuid": "0a0ebc40-4672-49e4-b483-afbcd020c143"
   },
   {
     "name": "Dresden - Postplatz",
     "url_id": "dresden-postplatz",
-    "usage_id": "2447780470"
+    "usage_id": "2447780470",
+    "netpulse_uuid": "ffcd821f-0fd7-476d-a8f4-6621f027d1b7"
   },
   {
-    "name": "Dresden - Prager Straße",
+    "name": "Dresden - Prager Spitze",
     "url_id": "dresden-prager-spitze",
-    "usage_id": "1274276050"
+    "usage_id": "1274276050",
+    "netpulse_uuid": "5215f877-5b60-4ad1-969a-a34602469a01"
   },
   {
     "name": "Dresden – Altstadt",
     "url_id": "dresden-altstadt",
-    "usage_id": "1425155790"
+    "usage_id": "1425155790",
+    "netpulse_uuid": "43f0ac74-67eb-44a9-8d33-74fda1ff729f"
   },
   {
     "name": "Düsseldorf - Am Seestern",
     "url_id": "duesseldorf-seestern",
-    "usage_id": "2447783370"
+    "usage_id": "2447783370",
+    "netpulse_uuid": "9f783e96-38bb-46b2-b163-9b3a8ecad493"
   },
   {
     "name": "Düsseldorf - Düsseltal",
     "url_id": "duesseldorf-duesseltal",
-    "usage_id": "2445923070"
+    "usage_id": "2445923070",
+    "netpulse_uuid": "3ff71400-c428-47ac-bae4-eabd95eff3c5"
   },
   {
     "name": "Düsseldorf - Im Lighthouse",
     "url_id": "duesseldorf-derendorf-im-lighthouse",
-    "usage_id": "1312263410"
+    "usage_id": "1312263410",
+    "netpulse_uuid": "dea9ae0c-77ad-4dca-9d46-61fc5666556a"
   },
   {
     "name": "Düsseldorf - In der KÖ Galerie",
     "url_id": "duesseldorf-in-der-koe-galerie",
-    "usage_id": "1456156730"
+    "usage_id": "1456156730",
+    "netpulse_uuid": "bccc0705-0e75-4770-80e8-c5b4cabfa274"
   },
   {
     "name": "Düsseldorf – Holthausen",
     "url_id": "duesseldorf-holthausen",
-    "usage_id": "1418080850"
+    "usage_id": "1418080850",
+    "netpulse_uuid": "5b5d8524-8f89-42cc-9ba0-5d86bdd05eea"
   },
   {
     "name": "Essen",
     "url_id": "essen-kettwig",
-    "usage_id": "1254452530"
+    "usage_id": "1254452530",
+    "netpulse_uuid": "4509d94e-7cbd-4aea-a25a-aaaf41a2073f"
   },
   {
     "name": "Esslingen - Adenauerbrücke",
     "url_id": "esslingen-adenauerbruecke",
-    "usage_id": "1884725920"
+    "usage_id": "1884725920",
+    "netpulse_uuid": "cb3289b1-91f2-4982-87bb-f2a0a4858cf9"
   },
   {
     "name": "Esslingen - Hengstenberg Areal",
     "url_id": "esslingen-hengstenberg",
-    "usage_id": "1682293180"
+    "usage_id": "1682293180",
+    "netpulse_uuid": "f57da9f5-1b66-4f2b-89d3-3a286d223cc1"
   },
   {
     "name": "Esslingen - Im Dick",
     "url_id": "esslingen-das-dick",
-    "usage_id": "1549742170"
+    "usage_id": "1549742170",
+    "netpulse_uuid": "a3ddeecc-f06a-431e-a8a6-f416fa5cadf3"
   },
   {
     "name": "Ettlingen",
     "url_id": "ettlingen",
-    "usage_id": "1890994800"
+    "usage_id": "1890994800",
+    "netpulse_uuid": "d80bcb46-cdf8-456d-95f7-c598369c0376"
   },
   {
     "name": "Fellbach",
     "url_id": "fellbach",
-    "usage_id": "1884717260"
+    "usage_id": "1884717260",
+    "netpulse_uuid": "13e38976-19d9-4024-8007-d12aece26afd"
   },
   {
     "name": "Frankfurt - Bockenheim",
     "url_id": "frankfurt-bockenheim",
-    "usage_id": "2158635620"
+    "usage_id": "2158635620",
+    "netpulse_uuid": "00a3f528-0003-4018-b849-90af3a8fc486"
   },
   {
     "name": "Frankfurt - Eckenheim",
     "url_id": "frankfurt-eckenheim",
-    "usage_id": "1291822090"
+    "usage_id": "1291822090",
+    "netpulse_uuid": "00a3f528-0003-4018-b849-90af3a8fc486"
   },
   {
     "name": "Frankfurt - Eschenheimer Turm",
     "url_id": "frankfurt-eschenheimer-turm",
-    "usage_id": "1285923430"
+    "usage_id": "1285923430",
+    "netpulse_uuid": "4db4251a-addb-40b2-91bc-be6229497e05"
   },
   {
     "name": "Frankfurt - Industriehof",
     "url_id": "frankfurt-industriehof",
-    "usage_id": "2158632650"
+    "usage_id": "2158632650",
+    "netpulse_uuid": "d960be30-6e6f-41e5-aed9-f0a7cbe96327"
   },
   {
     "name": "Frankfurt - Konstablerwache",
     "url_id": "frankfurt-konstablerwache-zeil",
-    "usage_id": "1289843950"
+    "usage_id": "1289843950",
+    "netpulse_uuid": "098c08ec-938d-4939-a309-d8f4864e866e"
   },
   {
     "name": "Frankfurt - MyZeil",
     "url_id": "frankfurt-myzeil",
-    "usage_id": "1297314090"
+    "usage_id": "1297314090",
+    "netpulse_uuid": "4d0db9a2-2dd4-4205-a379-75d16a91ac84"
   },
   {
     "name": "Frankfurt - Opernplatz",
     "url_id": "frankfurt-opernplatz",
-    "usage_id": "1292694020"
+    "usage_id": "1292694020",
+    "netpulse_uuid": "e669c0f2-34bc-47b0-a8a5-9d438d0ea62f"
   },
   {
     "name": "Frankfurt - Ostend",
     "url_id": "frankfurt-ostend",
-    "usage_id": "1285922650"
+    "usage_id": "1285922650",
+    "netpulse_uuid": "c7068a69-2481-413a-a40c-2ce63d8e897d"
   },
   {
     "name": "Frankfurt - Preungesheim",
     "url_id": "frankfurt-preungesheim",
-    "usage_id": "2407179550"
+    "usage_id": "2407179550",
+    "netpulse_uuid": "9cb70a22-b68c-442a-a0c4-f0fb19a95dc5"
   },
   {
     "name": "Frankfurt - Rödelheim - Ladies",
     "url_id": "frankfurt-women-roedelheim",
-    "usage_id": "2159740720"
+    "usage_id": "2159740720",
+    "netpulse_uuid": "a086a5de-b95c-4e15-adbe-521c60f4366e"
   },
   {
     "name": "Frankfurt - Sachsenhausen - Ladies",
     "url_id": "frankfurt-women-sachsenhausen",
-    "usage_id": "1249347530"
+    "usage_id": "1249347530",
+    "netpulse_uuid": "3f5476b7-c99a-4e1f-bdd5-5f2b08b287ba"
   },
   {
     "name": "Frankfurt - Westend",
     "url_id": "frankfurt-westend",
-    "usage_id": "1285865290"
+    "usage_id": "1285865290",
+    "netpulse_uuid": "c7068a69-2481-413a-a40c-2ce63d8e897d"
   },
   {
     "name": "Freiburg",
     "url_id": "freiburg",
-    "usage_id": "1549475630"
+    "usage_id": "1549475630",
+    "netpulse_uuid": "bbddb917-eaf7-431e-ad4d-cbfbb995d064"
   },
   {
     "name": "Fürth",
     "url_id": "fuerth",
-    "usage_id": "2407178250"
+    "usage_id": "2407178250",
+    "netpulse_uuid": "48447ffd-92eb-4059-b793-8abee1091352"
   },
   {
     "name": "Geislingen",
     "url_id": "geislingen",
-    "usage_id": "1661288370"
+    "usage_id": "1661288370",
+    "netpulse_uuid": "8097e44f-fb86-4507-9d13-60c04a8f2aac"
   },
   {
     "name": "Georgsmarienhütte",
     "url_id": "georgsmarienhuette",
-    "usage_id": "1459127920"
+    "usage_id": "1459127920",
+    "netpulse_uuid": "b96c9856-fe9b-4f02-909f-5e97be3db40a"
   },
   {
     "name": "Gera",
     "url_id": "gera",
-    "usage_id": "2447844360"
+    "usage_id": "2447844360",
+    "netpulse_uuid": "e508cde4-a90a-4ea2-8446-7cdc08c3cc86"
   },
   {
     "name": "Giengen",
     "url_id": "giengen",
-    "usage_id": "1680363620"
+    "usage_id": "1680363620",
+    "netpulse_uuid": "eaa3c0d3-8cb7-4f53-bec4-f363f4e3138c"
   },
   {
     "name": "Gifhorn",
     "url_id": "gifhorn",
-    "usage_id": "1449813910"
+    "usage_id": "1449813910",
+    "netpulse_uuid": "129805d6-a1de-4d83-9a9e-eac506d4fa13"
   },
   {
     "name": "Goslar",
     "url_id": "goslar",
-    "usage_id": "1402628810"
+    "usage_id": "1402628810",
+    "netpulse_uuid": "0c9921b3-9fd9-4075-a454-b6d645f94321"
   },
   {
     "name": "Griesheim",
     "url_id": "griesheim",
-    "usage_id": "2159914070"
+    "usage_id": "2159914070",
+    "netpulse_uuid": "34d9c3ff-070b-4dc0-9780-e6b3c7b5eec5"
   },
   {
     "name": "Groß-Gerau",
     "url_id": "gross-gerau",
-    "usage_id": "2141532870"
+    "usage_id": "2141532870",
+    "netpulse_uuid": "4c661fb7-021c-41e6-b0b4-2462e1771d31"
   },
   {
     "name": "Gräfenhausen",
     "url_id": "graefenhausen",
-    "usage_id": "2141514170"
+    "usage_id": "2141514170",
+    "netpulse_uuid": "d01a0162-4fbe-48b7-9cd3-276e75946d33"
   },
   {
     "name": "Göppingen - Am Autohof",
     "url_id": "goeppingen-am-autohof",
-    "usage_id": "1658010100"
+    "usage_id": "1658010100",
+    "netpulse_uuid": "afd263c2-ef79-4ae5-bfb0-efbfed3e0e1e"
   },
   {
     "name": "Göppingen - City",
     "url_id": "goeppingen-city",
-    "usage_id": "1657037530"
+    "usage_id": "1657037530",
+    "netpulse_uuid": "f0ebae81-d172-47f6-a235-ffce8f78fd95"
   },
   {
     "name": "Göppingen - Stauferpark",
     "url_id": "goeppingen-stauferpark",
-    "usage_id": "1666302650"
+    "usage_id": "1666302650",
+    "netpulse_uuid": "a93ecb16-4b74-412d-b68c-33f413175fe2"
   },
   {
     "name": "Göttingen - An der Uni",
     "url_id": "goettingen",
-    "usage_id": "1270047300"
+    "usage_id": "1270047300",
+    "netpulse_uuid": "2850333a-ba7c-48d9-aca8-9d51879d6d0f"
   },
   {
     "name": "Göttingen - Im Carré",
     "url_id": "goettingen-im-carre",
-    "usage_id": "1425678230"
+    "usage_id": "1425678230",
+    "netpulse_uuid": "153ba10d-10db-4bd6-8d22-ece8a1f775e6"
   },
   {
     "name": "Hamburg - Alsterufer",
     "url_id": "hamburg-alsterufer",
-    "usage_id": "1210184710"
+    "usage_id": "1210184710",
+    "netpulse_uuid": "990cbf9a-59be-4886-8a71-026cea574c1a"
   },
   {
     "name": "Hamburg - Altona",
     "url_id": "hamburg-altona",
-    "usage_id": "1382249270"
+    "usage_id": "1382249270",
+    "netpulse_uuid": "ec31fbf3-fd21-4396-b6d4-ceca35724c0b"
   },
   {
     "name": "Hamburg - Bahrenfeld",
     "url_id": "hamburg-bahrenfeld",
-    "usage_id": "2445626240"
+    "usage_id": "2445626240",
+    "netpulse_uuid": "5ad080d8-baa7-46a3-8ada-6ccb585a61bf"
   },
   {
     "name": "Hamburg - Eppendorf",
     "url_id": "hamburg-eppendorf",
-    "usage_id": "1380428710"
+    "usage_id": "1380428710",
+    "netpulse_uuid": "37d7c5d3-6594-4853-a1e6-c116ac084690"
   },
   {
     "name": "Hamburg - Eppendorf Straßenbahnring",
     "url_id": "hamburg-eppendorf-strassenbahnring",
-    "usage_id": "1210077860"
+    "usage_id": "1210077860",
+    "netpulse_uuid": "2c8d980b-a0f8-427a-8b8e-e80312d1ad5a"
   },
   {
     "name": "Hamburg - Harburg",
     "url_id": "hamburg-harburg",
-    "usage_id": "1432648510"
+    "usage_id": "1432648510",
+    "netpulse_uuid": "bede5b7b-12aa-44d6-8466-8d8cf5a0081c"
   },
   {
     "name": "Hamburg - Innenstadt Dammtorpark",
     "url_id": "hamburg-innenstadt-dammtorpark",
-    "usage_id": "1210006600"
+    "usage_id": "1210006600",
+    "netpulse_uuid": "c5a7232a-de1d-4c49-bad6-cda79de35bf1"
   },
   {
     "name": "Hamburg - Jungfernstieg",
     "url_id": "hamburg-mitte-jungfernstieg",
-    "usage_id": "1376532610"
+    "usage_id": "1376532610",
+    "netpulse_uuid": "5a1a486a-da5b-43d7-9d33-71b10a45f25a"
   },
   {
     "name": "Hamburg - Langenhorn",
     "url_id": "hamburg-langenhorn",
-    "usage_id": "2445880970"
+    "usage_id": "2445880970",
+    "netpulse_uuid": "ed0cf69b-1676-45cb-93f7-7dc8ad7b2f6b"
   },
   {
     "name": "Hamburg - Lüneburger Tor",
     "url_id": "hamburg-lueneburger-tor",
-    "usage_id": "2447822250"
+    "usage_id": "2447822250",
+    "netpulse_uuid": "5a5e515f-9d26-4584-98ac-518549bf35bf"
   },
   {
     "name": "Hamburg - Niendorf",
     "url_id": "hamburg-niendorf",
-    "usage_id": "1376260040"
+    "usage_id": "1376260040",
+    "netpulse_uuid": "c3a6e39e-a439-42e5-81dc-e91f03039f70"
   },
   {
     "name": "Hamburg - Rödingsmarkt",
     "url_id": "hamburg-neustadt-roedingsmarkt",
-    "usage_id": "1375550710"
+    "usage_id": "1375550710",
+    "netpulse_uuid": "c6ae765f-98cc-42cc-9662-2bf5a234c49d"
   },
   {
     "name": "Hamburg - St. Georg",
     "url_id": "hamburg-st-georg-hbf",
-    "usage_id": "1375487790"
+    "usage_id": "1375487790",
+    "netpulse_uuid": "d4adf23e-f5f6-4d34-824d-acfb6ee13702"
   },
   {
     "name": "Hamburg - Stadthöfe",
     "url_id": "hamburg-stadthoefe",
-    "usage_id": "1214789660"
+    "usage_id": "1214789660",
+    "netpulse_uuid": "a80da210-16ca-4df3-ad44-b10d25e66839"
   },
   {
     "name": "Hamburg - Stephansplatz",
     "url_id": "hamburg-stephansplatz",
-    "usage_id": "1384437500"
+    "usage_id": "1384437500",
+    "netpulse_uuid": "76bec281-ae4e-4558-b85e-94fbe26810cd"
   },
   {
     "name": "Hamburg - Wandsbek",
     "url_id": "hamburg-wandsbek",
-    "usage_id": "1381304420"
+    "usage_id": "1381304420",
+    "netpulse_uuid": "928370ef-4abc-48a6-92fd-5197683b9505"
   },
   {
     "name": "Hamburg - Winterhude",
     "url_id": "hamburg-winterhude",
-    "usage_id": "1217745570"
+    "usage_id": "1217745570",
+    "netpulse_uuid": "5dc8bb4d-6d33-4910-aa75-614c07868a3f"
   },
   {
     "name": "Hamm",
     "url_id": "hamm",
-    "usage_id": "1460912610"
+    "usage_id": "1460912610",
+    "netpulse_uuid": "edea9b79-50ca-46a3-8465-f1f8520598fc"
   },
   {
     "name": "Hannover - City",
     "url_id": "hannover-city",
-    "usage_id": "1440050380"
+    "usage_id": "1440050380",
+    "netpulse_uuid": "026c6d95-c49a-4e89-8aa3-e64fb9313c44"
   },
   {
     "name": "Hannover - Georgstraße",
     "url_id": "hannover-georgstrasse",
-    "usage_id": "2447826140"
+    "usage_id": "2447826140",
+    "netpulse_uuid": "9d066219-2006-433e-9a08-fe78640b5837"
+  },
+  {
+    "name": "Heidenheim - Am Brenzpark",
+    "url_id": "heidenheim-am-brenzpark",
+    "usage_id": "1682600400",
+    "netpulse_uuid": "5d389ce3-55f4-42b6-a8b8-1c29c0d363e9"
   },
   {
     "name": "Heidenheim - Steinheimer Straße",
     "url_id": "heidenheim-steinheimer",
-    "usage_id": "1895671930"
-  },
-  {
-    "name": "Heidenheim – Am Brenzpark",
-    "url_id": "heidenheim-am-brenzpark",
-    "usage_id": "1682600400"
+    "usage_id": "1895671930",
+    "netpulse_uuid": "2c0ceeab-4af5-42e1-bc46-f3fc34e4da2d"
   },
   {
     "name": "Heilbronn",
     "url_id": "heilbronn",
-    "usage_id": "2408786580"
+    "usage_id": "2408786580",
+    "netpulse_uuid": "458f0909-43f8-4df0-97cc-ad55c573c5c7"
   },
   {
     "name": "Hildesheim",
     "url_id": "hildesheim",
-    "usage_id": "1439644620"
+    "usage_id": "1439644620",
+    "netpulse_uuid": "22184830-26ac-4b55-8129-380e4a40ef6b"
   },
   {
     "name": "Homburg",
     "url_id": "homburg",
-    "usage_id": "1606418930"
+    "usage_id": "1606418930",
+    "netpulse_uuid": "d24e1db3-60d3-47b1-9513-de972ae96014"
   },
   {
     "name": "Horn",
     "url_id": "horn",
-    "usage_id": "2017439250"
+    "usage_id": "2017439250",
+    "netpulse_uuid": "3b96c6a7-d428-4349-b658-ca79045d5a11"
   },
   {
     "name": "Idar-Oberstein - Am Festplatz",
     "url_id": "idar-oberstein-festplatz",
-    "usage_id": "1572938000"
+    "usage_id": "1572938000",
+    "netpulse_uuid": "1746b116-3956-4db8-994a-95de5256256b"
   },
   {
     "name": "Idar-Oberstein - Am Kreisel",
     "url_id": "idar-oberstein-kreisel",
-    "usage_id": "1579541630"
+    "usage_id": "1579541630",
+    "netpulse_uuid": "a9801268-85cf-4a4f-a711-b41376e79bfc"
   },
   {
     "name": "Ingolstadt",
     "url_id": "ingolstadt",
-    "usage_id": "2405757110"
+    "usage_id": "2405757110",
+    "netpulse_uuid": "d8f1cfa4-89c8-42c3-afd2-f0288f1f8337"
   },
   {
     "name": "Kaiserslautern",
     "url_id": "kaiserslautern",
-    "usage_id": "1270072180"
+    "usage_id": "1270072180",
+    "netpulse_uuid": "08aedc62-6efe-4d38-9a9a-91c204984f08"
   },
   {
     "name": "Kassel",
     "url_id": "kassel",
-    "usage_id": "1255080510"
+    "usage_id": "1255080510",
+    "netpulse_uuid": "d74a112f-a97a-4370-8230-525dc0c1ad23"
   },
   {
     "name": "Kirn",
     "url_id": "kirn",
-    "usage_id": "1602430120"
+    "usage_id": "1602430120",
+    "netpulse_uuid": "16750af2-9c80-4a96-bac9-d9ed30e02267"
   },
   {
     "name": "Kornwestheim",
     "url_id": "kornwestheim",
-    "usage_id": "1883508710"
+    "usage_id": "1883508710",
+    "netpulse_uuid": "116ae347-a0b4-4673-9055-710b22b8e995"
   },
   {
     "name": "Köln - Bayenthal",
     "url_id": "koeln-bayenthal",
-    "usage_id": "1312319190"
+    "usage_id": "1312319190",
+    "netpulse_uuid": "2da0fa69-8672-40e3-864d-25bdb380cf82"
   },
   {
     "name": "Köln - Breite Straße",
     "url_id": "fitnessstudio-koeln-breite-strasse",
-    "usage_id": "1312256840"
+    "usage_id": "1312256840",
+    "netpulse_uuid": "461d7d8c-c9e1-4041-8320-256eebd916b5"
   },
   {
     "name": "Köln - Ehrenfeld",
     "url_id": "koeln-ehrenfeld",
-    "usage_id": "1321089840"
+    "usage_id": "1321089840",
+    "netpulse_uuid": "29b406ed-9254-4131-b4ac-204984307e09"
   },
   {
     "name": "Köln - Eigelstein Viertel",
     "url_id": "koeln-eigelstein",
-    "usage_id": "1415452200"
+    "usage_id": "1415452200",
+    "netpulse_uuid": "839c0c74-1f59-4f88-9a99-d2017a08dd83"
   },
   {
     "name": "Köln - Schildergasse",
     "url_id": "koeln-innenstadt-schildergasse",
-    "usage_id": "1317157790"
+    "usage_id": "1317157790",
+    "netpulse_uuid": "2cd57a7e-5158-46d1-ae86-2939c6f7936f"
   },
   {
     "name": "Köln - Sülz",
     "url_id": "koeln-suelz",
-    "usage_id": "1312259220"
+    "usage_id": "1312259220",
+    "netpulse_uuid": "bbc819c4-2552-4e22-952d-b5f7087cf466"
   },
   {
     "name": "Laatzen",
     "url_id": "laatzen",
-    "usage_id": "1439721570"
+    "usage_id": "1439721570",
+    "netpulse_uuid": "f475bdd7-dd20-4e53-8dbe-ec3c562c57ce"
   },
   {
     "name": "Laufenburg",
     "url_id": "laufenburg",
-    "usage_id": "2406515870"
+    "usage_id": "2406515870",
+    "netpulse_uuid": "59e48dfa-835a-47aa-a1e6-e36a71137427"
   },
   {
     "name": "Laupheim",
     "url_id": "laupheim",
-    "usage_id": "1895674540"
+    "usage_id": "1895674540",
+    "netpulse_uuid": "3171bb71-f62e-41f2-b0a2-8a65b163f66d"
   },
   {
     "name": "Leipzig",
     "url_id": "leipzig-mitte-messehof",
-    "usage_id": "1264196080"
+    "usage_id": "1264196080",
+    "netpulse_uuid": "b5aef04c-bc25-47fa-8ea5-a538d291b9ad"
   },
   {
     "name": "Leipzig - Thomaskirche",
     "url_id": "leipzig-thomaskirche",
-    "usage_id": "2447818860"
+    "usage_id": "2447818860",
+    "netpulse_uuid": "5946a0fc-cd9b-46b1-94d5-3299939b15d3"
   },
   {
     "name": "Lemgo",
     "url_id": "lemgo",
-    "usage_id": "2006688920"
+    "usage_id": "2006688920",
+    "netpulse_uuid": "eaa7f3fb-ccf9-4e42-8c26-e19384b6ca1e"
   },
   {
     "name": "Ludwigsburg",
     "url_id": "ludwigsburg",
-    "usage_id": "1884693320"
+    "usage_id": "1884693320",
+    "netpulse_uuid": "8af1fb82-8938-4137-9b95-6f0d02a2799d"
   },
   {
     "name": "Magdeburg - Am Kroatenweg",
     "url_id": "magdeburg-kroatenweg",
-    "usage_id": "1452085070"
+    "usage_id": "1452085070",
+    "netpulse_uuid": null
   },
   {
     "name": "Magdeburg - Sudenburg",
     "url_id": "magdeburg-sudenburg",
-    "usage_id": "2447781820"
+    "usage_id": "2447781820",
+    "netpulse_uuid": "4ab7a882-ee92-4073-9298-b3ac63fa749b"
   },
   {
     "name": "Mainz",
     "url_id": "mainz",
-    "usage_id": "1270049830"
+    "usage_id": "1270049830",
+    "netpulse_uuid": "937540dc-6424-4687-8213-e6d2882665fe"
   },
   {
     "name": "Mannheim - Im Quartier",
     "url_id": "mannheim-im-quartier",
-    "usage_id": "1272859330"
+    "usage_id": "1272859330",
+    "netpulse_uuid": "7508ecd7-3ab1-4d77-99cc-e3748fce9bf6"
   },
   {
     "name": "Mannheim - Neckarau",
     "url_id": "mannheim-neckarau",
-    "usage_id": "1895682580"
+    "usage_id": "1895682580",
+    "netpulse_uuid": "caed543c-34f2-4f1e-adb9-58d302ef2bfa"
   },
   {
     "name": "Mannheim - Sandhofen",
     "url_id": "mannheim-sandhofen",
-    "usage_id": "1895675960"
+    "usage_id": "1895675960",
+    "netpulse_uuid": "6da39203-ffc4-41d0-84cb-9e41dc7e463c"
   },
   {
     "name": "Marl",
     "url_id": "marl",
-    "usage_id": "1460836050"
+    "usage_id": "1460836050",
+    "netpulse_uuid": "1aaba7ad-3ac0-40af-9818-6bff20f1df5f"
   },
   {
     "name": "Merzig - City",
     "url_id": "merzig-city",
-    "usage_id": "1535834440"
+    "usage_id": "1535834440",
+    "netpulse_uuid": "a108788f-592e-4c41-bae8-f0d4e0f28dbf"
   },
   {
     "name": "Merzig - Saarwiesenring",
     "url_id": "merzig-saarwiesenring",
-    "usage_id": "1584793770"
+    "usage_id": "1584793770",
+    "netpulse_uuid": "dbffb98d-e543-4c7c-9150-f05574622209"
   },
   {
     "name": "Mönchengladbach - Eicken",
     "url_id": "moenchengladbach-eicken",
-    "usage_id": "1411679210"
+    "usage_id": "1411679210",
+    "netpulse_uuid": "05d20c5f-c3d6-480d-9306-bd534ed89db5"
   },
   {
     "name": "Mönchengladbach - Rheydt",
     "url_id": "moenchengladbach-rheydt",
-    "usage_id": "2445886010"
+    "usage_id": "2445886010",
+    "netpulse_uuid": "1ad77e07-253c-4747-8256-867da2591757"
   },
   {
     "name": "Mörfelden-Walldorf",
     "url_id": "moerfelden-walldorf",
-    "usage_id": "2141507670"
+    "usage_id": "2141507670",
+    "netpulse_uuid": "0b3226de-26a8-4088-93f4-3a4649a8f18b"
   },
   {
     "name": "München - Am Marienplatz",
     "url_id": "muenchen-innenstadt-am-marienplatz",
-    "usage_id": "1356285290"
+    "usage_id": "1356285290",
+    "netpulse_uuid": "9694d0ac-d474-4e7f-83a8-9e47adda63fd"
   },
   {
     "name": "München - DER Bogen",
     "url_id": "muenchen-bogen",
-    "usage_id": "1862102410"
+    "usage_id": "1862102410",
+    "netpulse_uuid": "b706795e-bcee-4932-8f2e-a654ca7890da"
   },
   {
     "name": "München - Haidhausen",
     "url_id": "muenchen-haidhausen",
-    "usage_id": "1363429860"
+    "usage_id": "1363429860",
+    "netpulse_uuid": "3766d5f6-e9c9-49e9-913f-a139876e02a7"
   },
   {
     "name": "München - Hofstatt",
     "url_id": "muenchen-hofstatt",
-    "usage_id": "1218422750"
+    "usage_id": "1218422750",
+    "netpulse_uuid": "a77d0eac-f058-4d0a-ae4d-d775d0e9dbf5"
   },
   {
     "name": "München - Laim",
     "url_id": "muenchen-laim",
-    "usage_id": "1356095110"
+    "usage_id": "1356095110",
+    "netpulse_uuid": "34f7599f-dc32-46c2-9087-da7e9d53c9e3"
   },
   {
     "name": "München - Moosach",
     "url_id": "muenchen-moosach",
-    "usage_id": "2405764950"
+    "usage_id": "2405764950",
+    "netpulse_uuid": "7aa97725-2778-41fe-80f2-38c336ec6246"
   },
   {
     "name": "München - Schwabing",
     "url_id": "muenchen-schwabing",
-    "usage_id": "1357396380"
+    "usage_id": "1357396380",
+    "netpulse_uuid": "59a8a028-5cda-469c-8fcd-5d92faacc822"
   },
   {
     "name": "München - Sendling",
     "url_id": "muenchen-sendling",
-    "usage_id": "2237556420"
+    "usage_id": "2237556420",
+    "netpulse_uuid": "4cd305a7-80fd-4000-965f-570a599addfe"
   },
   {
     "name": "Münster - Aaseestadt",
     "url_id": "muenster-aaseestadt",
-    "usage_id": "1254349140"
+    "usage_id": "1254349140",
+    "netpulse_uuid": "d21547a2-230e-4a7c-a848-a4c5bf85ab7e"
   },
   {
     "name": "Münster - Germania - Campus",
     "url_id": "muenster-germania-campus",
-    "usage_id": "1257174880"
+    "usage_id": "1257174880",
+    "netpulse_uuid": "8042e940-bdf3-4f6c-85c8-b4808a63f629"
   },
   {
     "name": "Nordhausen",
     "url_id": "nordhausen",
-    "usage_id": "999999999"
+    "usage_id": "999999999",
+    "netpulse_uuid": "c67ca6ba-b5ae-4989-a837-553265467f4d"
   },
   {
     "name": "Nürnberg",
     "url_id": "nuernberg",
-    "usage_id": "2405771120"
+    "usage_id": "2405771120",
+    "netpulse_uuid": "f801a41a-2437-4fc5-87e8-bc1f0ed89ad1"
   },
   {
     "name": "Offenbach",
     "url_id": "offenbach",
-    "usage_id": "2405712540"
+    "usage_id": "2405712540",
+    "netpulse_uuid": "286724c8-d7fc-439e-a752-be7a04e1efba"
   },
   {
     "name": "Paderborn - Innenstadt",
     "url_id": "paderborn-innenstadt",
-    "usage_id": "1414223870"
+    "usage_id": "1414223870",
+    "netpulse_uuid": "41bca85e-5df5-4efe-a6a5-9b0f58eefc92"
   },
   {
     "name": "Paderborn - Kernstadt",
     "url_id": "paderborn-kernstadt",
-    "usage_id": "2447830550"
+    "usage_id": "2447830550",
+    "netpulse_uuid": "24e2cbb5-33c6-479b-a82e-fe9379fabc12"
   },
   {
     "name": "Pforzheim",
     "url_id": "pforzheim",
-    "usage_id": "1550721450"
+    "usage_id": "1550721450",
+    "netpulse_uuid": "1a2f42e0-22b8-403c-8afb-0ef58de2e845"
   },
   {
     "name": "Pirmasens",
     "url_id": "pirmasens",
-    "usage_id": "1604389230"
+    "usage_id": "1604389230",
+    "netpulse_uuid": "5ed82866-0479-426b-a9e8-24eec4689664"
   },
   {
     "name": "Plochingen",
     "url_id": "plochingen",
-    "usage_id": "1656812890"
+    "usage_id": "1656812890",
+    "netpulse_uuid": "a193203e-9790-4d2b-a7ab-8a8f760375a3"
   },
   {
     "name": "Potsdam",
     "url_id": "potsdam",
-    "usage_id": "1252501690"
+    "usage_id": "1252501690",
+    "netpulse_uuid": "938a1dac-b16a-42d5-8e47-b3c4cce04162"
   },
   {
     "name": "Raunheim - Ladies",
     "url_id": "raunheim-women",
-    "usage_id": "2407189780"
+    "usage_id": "2407189780",
+    "netpulse_uuid": "0f74a8fb-48a9-43b4-b2ec-068532fd2584"
   },
   {
     "name": "Raunheim - Mainspitze",
     "url_id": "raunheim-mainspitze",
-    "usage_id": "2407187030"
+    "usage_id": "2407187030",
+    "netpulse_uuid": "f4e420f5-ca64-4e27-be7a-65121a147d19"
   },
   {
     "name": "Ravensburg",
     "url_id": "ravensburg",
-    "usage_id": "1884720530"
+    "usage_id": "1884720530",
+    "netpulse_uuid": "ce54786e-8eb4-4851-92f0-0e28fe57735b"
   },
   {
     "name": "Regensburg - Kirchmeierstraße",
     "url_id": "regensburg-kirchmeierstrasse",
-    "usage_id": "1370526730"
+    "usage_id": "1370526730",
+    "netpulse_uuid": "0293e496-cb7a-49ec-a9c6-1dce0129dbf4"
   },
   {
     "name": "Regensburg - Pfaffenstein",
     "url_id": "regensburg-pfaffenstein",
-    "usage_id": "1355827140"
+    "usage_id": "1355827140",
+    "netpulse_uuid": "0bea4eba-22c5-4e0c-9d90-0d3fe3662354"
   },
   {
     "name": "Rheinstetten",
     "url_id": "rheinstetten",
-    "usage_id": "2408772740"
+    "usage_id": "2408772740",
+    "netpulse_uuid": null
   },
   {
     "name": "Rostock - Innenstadt",
     "url_id": "rostock-innenstadt",
-    "usage_id": "2447834550"
+    "usage_id": "2447834550",
+    "netpulse_uuid": "5602fb8b-2121-4b7b-90a2-50f37b4c5185"
   },
   {
     "name": "Rottenburg",
     "url_id": "rottenburg",
-    "usage_id": "1895679990"
+    "usage_id": "1895679990",
+    "netpulse_uuid": "be43a642-0fbd-4ee4-9628-fed4b484d0f2"
   },
   {
     "name": "Saarbrücken",
     "url_id": "saarbruecken",
-    "usage_id": "2406673080"
+    "usage_id": "2406673080",
+    "netpulse_uuid": "c3861096-eb3b-4916-951f-a19230adc008"
   },
   {
     "name": "Saarlouis",
     "url_id": "saarlouis",
-    "usage_id": "1582661160"
+    "usage_id": "1582661160",
+    "netpulse_uuid": "e6156ea3-594f-47fe-a133-780671c82b12"
   },
   {
     "name": "Singen",
     "url_id": "singen",
-    "usage_id": "1895686800"
+    "usage_id": "1895686800",
+    "netpulse_uuid": "2c7a62c1-5f88-4ef2-80f2-09cec1bd3755"
   },
   {
     "name": "Stuttgart - Bad Cannstatt",
     "url_id": "stuttgart-bad-cannstatt",
-    "usage_id": "1550017790"
+    "usage_id": "1550017790",
+    "netpulse_uuid": "a06e658c-a5f1-43b4-ab13-7a57295d83c9"
   },
   {
     "name": "Stuttgart - Hauptstätter Straße",
     "url_id": "stuttgart-hauptstaetter",
-    "usage_id": "2406731360"
+    "usage_id": "2406731360",
+    "netpulse_uuid": "88a6032a-3ff8-4e42-b47d-580c2390d51f"
   },
   {
     "name": "Stuttgart - Rotebühl",
     "url_id": "stuttgart-rotebuehl",
-    "usage_id": "1549495970"
+    "usage_id": "1549495970",
+    "netpulse_uuid": "e87a65d3-bfca-4c76-be00-0b4989342102"
   },
   {
     "name": "Stuttgart - Zuffenhausen",
     "url_id": "stuttgart-zuffenhausen",
-    "usage_id": "1884693470"
+    "usage_id": "1884693470",
+    "netpulse_uuid": "c4d9c890-904f-463b-8c25-9fdf60588e03"
   },
   {
     "name": "Süßen",
     "url_id": "suessen",
-    "usage_id": "1655884420"
+    "usage_id": "1655884420",
+    "netpulse_uuid": "01327706-3483-4923-931a-6be82dfc1530"
   },
   {
     "name": "Trier - Nord",
     "url_id": "trier-nord",
-    "usage_id": "1606506570"
+    "usage_id": "1606506570",
+    "netpulse_uuid": "b3f0ee0e-c6d0-4e79-a9e3-b72e739cd718"
   },
   {
     "name": "Trier - West",
     "url_id": "trier-west",
-    "usage_id": "1606282130"
+    "usage_id": "1606282130",
+    "netpulse_uuid": "0e7e777f-c15f-413e-bb6b-5736d0ab0085"
   },
   {
     "name": "Trier - Zentrum",
     "url_id": "trier-zentrum",
-    "usage_id": "1552211670"
+    "usage_id": "1552211670",
+    "netpulse_uuid": "d3b1a77e-6ae6-4e42-936a-d299730b5425"
   },
   {
     "name": "Uhingen",
     "url_id": "uhingen",
-    "usage_id": "1679595440"
+    "usage_id": "1679595440",
+    "netpulse_uuid": "6767d88e-5298-4a0e-a78c-28a926ef837e"
   },
   {
     "name": "Vösendorf",
     "url_id": "voesendorf",
-    "usage_id": "2509882760"
+    "usage_id": "2509882760",
+    "netpulse_uuid": "4b79e619-70ea-4e5a-9b2c-f51b862066c7"
   },
   {
     "name": "Waiblingen",
     "url_id": "waiblingen",
-    "usage_id": "1875082440"
+    "usage_id": "1875082440",
+    "netpulse_uuid": "cf033ca0-5267-4bd7-8e3f-28065d1bda7c"
   },
   {
     "name": "Wangen",
     "url_id": "wangen",
-    "usage_id": "1884698170"
+    "usage_id": "1884698170",
+    "netpulse_uuid": "c62bc5b3-9622-4de8-9734-b04138b1a6bf"
   },
   {
     "name": "Wedel",
     "url_id": "wedel",
-    "usage_id": "1450945880"
+    "usage_id": "1450945880",
+    "netpulse_uuid": "384e01c7-2e34-45a7-8513-772f39e18eb8"
   },
   {
     "name": "Wernigerode",
     "url_id": "wernigerode",
-    "usage_id": "1449991020"
+    "usage_id": "1449991020",
+    "netpulse_uuid": "f7ba96b5-f8c4-4a3e-b94c-e5d1776faecf"
   },
   {
     "name": "Wien - Floridsdorf",
     "url_id": "wien-floridsdorf",
-    "usage_id": "2509890090"
+    "usage_id": "2509890090",
+    "netpulse_uuid": "00d5874b-3360-41f1-a274-74509c7256ca"
   },
   {
     "name": "Wien - Landstraße",
     "url_id": "wien-landstrasse",
-    "usage_id": "2509875380"
+    "usage_id": "2509875380",
+    "netpulse_uuid": "04ccac2c-4e54-4cea-826a-269585367f4f"
   },
   {
     "name": "Wien - Liesing",
     "url_id": "wien-liesing",
-    "usage_id": "2509898060"
+    "usage_id": "2509898060",
+    "netpulse_uuid": "41c2cbf1-366a-4ab6-8cf0-41076248c244"
   },
   {
     "name": "Wiesbaden - Bahnhofsplatz",
     "url_id": "wiesbaden-bahnhofsplatz",
-    "usage_id": "1273799520"
+    "usage_id": "1273799520",
+    "netpulse_uuid": "dfed975b-16bd-4635-9d92-419b5f9ae984"
   },
   {
     "name": "Wiesbaden - Künstlerviertel",
     "url_id": "wiesbaden-kuenstlerviertel",
-    "usage_id": "2069188770"
+    "usage_id": "2069188770",
+    "netpulse_uuid": "09e76bf3-e014-4813-b1d2-202f628a6e7d"
   },
   {
     "name": "Winnenden",
     "url_id": "winnenden",
-    "usage_id": "1883508530"
+    "usage_id": "1883508530",
+    "netpulse_uuid": "7bf200a4-53d8-4fd0-87d0-a5496d31229d"
   },
   {
-    "name": "Wolfenbüttel City",
+    "name": "Wolfenbüttel - City",
     "url_id": "wolfenbuettel-city",
-    "usage_id": "1424999990"
+    "usage_id": "1424999990",
+    "netpulse_uuid": "7daa30b6-cff7-4c09-9572-9a5b397c541f"
   },
   {
     "name": "Wäschenbeuren",
     "url_id": "waeschenbeuren",
-    "usage_id": "1679008750"
+    "usage_id": "1679008750",
+    "netpulse_uuid": "69964db9-2d97-4ee6-8760-d1b70d2acc33"
   },
   {
     "name": "Würzburg - Grombühl",
     "url_id": "wuerzburg",
-    "usage_id": "2393935800"
+    "usage_id": "2393935800",
+    "netpulse_uuid": "45e7bde5-5c14-43fa-b9e3-68517e6feb3b"
   },
   {
     "name": "Zweibrücken",
     "url_id": "zweibruecken",
-    "usage_id": "1573712750"
+    "usage_id": "1573712750",
+    "netpulse_uuid": "0d8a41ea-44c8-441c-8613-2e17748323a7"
   }
 ]
