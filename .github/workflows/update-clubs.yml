@@ -33,9 +33,6 @@ jobs:
       - name: Run extract_clubs.py
         run: uv run python extract_clubs.py
 
-      - name: Move clubs.json to assets folder
-        run: mv clubs.json assets/clubs.json
-
       - name: Check for changes
         id: changes
         run: |

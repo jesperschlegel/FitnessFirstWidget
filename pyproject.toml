@@ -7,5 +7,6 @@ requires-python = ">=3.12"
 dependencies = [
     "aiohttp>=3.13.3",
     "bs4>=0.0.2",
+    "rapidfuzz>=3.14.3",
     "tqdm>=4.67.1",
 ]
