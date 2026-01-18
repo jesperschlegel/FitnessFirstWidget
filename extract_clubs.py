@@ -16,6 +16,13 @@ CLUBS_FILENAME = "assets/clubs.json"
 
 FUZZY_MATCH_THRESHOLD = 90
 
+# Those clubs need manual mapping as they cant be matched by URL or fuzzy name
+# An explicit None means that the club should not be included in the final list
+MANUAL_WEBSITE_TO_NETPULSE_UUID = {
+    "berlin-women-steglitz-im-schloss": "b037b6b3-785b-487a-86ec-c456ff06783e",
+    "chemnitz": None, # is permanently closed
+    "magdeburg-kroatenweg": "4b6c15f2-12c9-4f22-8f89-c2c9f42dbdf5",
+}
 
 async def fetch_html(session, url):
     """Fetch HTML content with timeout and error handling."""
@@ -89,6 +96,13 @@ def get_netpulse_uuid_mapping(netpulse_data, website_club_list):
     website_club_list_copy = website_club_list.copy()
     for url_id, website_name in website_club_list_copy:
         uuid = None
+
+        # Check manual mapping first
+        if url_id in MANUAL_WEBSITE_TO_NETPULSE_UUID:
+            uuid = MANUAL_WEBSITE_TO_NETPULSE_UUID[url_id]
+            if uuid is not None:
+                mapping[url_id] = uuid
+            continue
 
         for netpulse_club in netpulse_data:
             netpulse_url = netpulse_club.get("url")
