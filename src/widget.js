@@ -2,7 +2,7 @@
 // Fitness First Widget
 // =======================================
 
-const VERSION = "1.0.1";
+const VERSION = "1.1.0";
 
 const fm = FileManager.local();
 const CACHE_DIR = fm.joinPath(fm.documentsDirectory(), "fitnessfirst-widget-cache");
