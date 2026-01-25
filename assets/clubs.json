@@ -93,7 +93,7 @@
     "name": "Berlin - Steglitz - Im Schloss - Ladies",
     "url_id": "berlin-women-steglitz-im-schloss",
     "usage_id": "1331805970",
-    "netpulse_uuid": null
+    "netpulse_uuid": "b037b6b3-785b-487a-86ec-c456ff06783e"
   },
   {
     "name": "Berlin - Steglitz SSC",
@@ -306,22 +306,22 @@
     "netpulse_uuid": "0a0ebc40-4672-49e4-b483-afbcd020c143"
   },
   {
+    "name": "Dresden - Altstadt",
+    "url_id": "dresden-altstadt",
+    "usage_id": "1425155790",
+    "netpulse_uuid": "43f0ac74-67eb-44a9-8d33-74fda1ff729f"
+  },
+  {
     "name": "Dresden - Postplatz",
     "url_id": "dresden-postplatz",
     "usage_id": "2447780470",
     "netpulse_uuid": "ffcd821f-0fd7-476d-a8f4-6621f027d1b7"
   },
   {
-    "name": "Dresden - Prager Spitze",
+    "name": "Dresden - Prager Straße",
     "url_id": "dresden-prager-spitze",
     "usage_id": "1274276050",
     "netpulse_uuid": "5215f877-5b60-4ad1-969a-a34602469a01"
-  },
-  {
-    "name": "Dresden – Altstadt",
-    "url_id": "dresden-altstadt",
-    "usage_id": "1425155790",
-    "netpulse_uuid": "43f0ac74-67eb-44a9-8d33-74fda1ff729f"
   },
   {
     "name": "Düsseldorf - Am Seestern",
@@ -354,7 +354,7 @@
     "netpulse_uuid": "5b5d8524-8f89-42cc-9ba0-5d86bdd05eea"
   },
   {
-    "name": "Essen",
+    "name": "Essen - Kettwig",
     "url_id": "essen-kettwig",
     "usage_id": "1254452530",
     "netpulse_uuid": "4509d94e-7cbd-4aea-a25a-aaaf41a2073f"
@@ -678,16 +678,16 @@
     "netpulse_uuid": "9d066219-2006-433e-9a08-fe78640b5837"
   },
   {
-    "name": "Heidenheim - Am Brenzpark",
-    "url_id": "heidenheim-am-brenzpark",
-    "usage_id": "1682600400",
-    "netpulse_uuid": "5d389ce3-55f4-42b6-a8b8-1c29c0d363e9"
-  },
-  {
     "name": "Heidenheim - Steinheimer Straße",
     "url_id": "heidenheim-steinheimer",
     "usage_id": "1895671930",
     "netpulse_uuid": "2c0ceeab-4af5-42e1-bc46-f3fc34e4da2d"
+  },
+  {
+    "name": "Heidenheim – Am Brenzpark",
+    "url_id": "heidenheim-am-brenzpark",
+    "usage_id": "1682600400",
+    "netpulse_uuid": "5d389ce3-55f4-42b6-a8b8-1c29c0d363e9"
   },
   {
     "name": "Heilbronn",
@@ -810,7 +810,7 @@
     "netpulse_uuid": "3171bb71-f62e-41f2-b0a2-8a65b163f66d"
   },
   {
-    "name": "Leipzig",
+    "name": "Leipzig - Messehof",
     "url_id": "leipzig-mitte-messehof",
     "usage_id": "1264196080",
     "netpulse_uuid": "b5aef04c-bc25-47fa-8ea5-a538d291b9ad"
@@ -837,7 +837,7 @@
     "name": "Magdeburg - Am Kroatenweg",
     "url_id": "magdeburg-kroatenweg",
     "usage_id": "1452085070",
-    "netpulse_uuid": null
+    "netpulse_uuid": "4b6c15f2-12c9-4f22-8f89-c2c9f42dbdf5"
   },
   {
     "name": "Magdeburg - Sudenburg",
@@ -852,12 +852,6 @@
     "netpulse_uuid": "937540dc-6424-4687-8213-e6d2882665fe"
   },
   {
-    "name": "Mannheim - Im Quartier",
-    "url_id": "mannheim-im-quartier",
-    "usage_id": "1272859330",
-    "netpulse_uuid": "7508ecd7-3ab1-4d77-99cc-e3748fce9bf6"
-  },
-  {
     "name": "Mannheim - Neckarau",
     "url_id": "mannheim-neckarau",
     "usage_id": "1895682580",
@@ -868,6 +862,12 @@
     "url_id": "mannheim-sandhofen",
     "usage_id": "1895675960",
     "netpulse_uuid": "6da39203-ffc4-41d0-84cb-9e41dc7e463c"
+  },
+  {
+    "name": "Mannheim – Im Quartier",
+    "url_id": "mannheim-im-quartier",
+    "usage_id": "1272859330",
+    "netpulse_uuid": "7508ecd7-3ab1-4d77-99cc-e3748fce9bf6"
   },
   {
     "name": "Marl",
