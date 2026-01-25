@@ -2,7 +2,7 @@
 // Fitness First Widget
 // =======================================
 
-const VERSION = "1.1.0";
+const VERSION = "1.1.1";
 
 const fm = FileManager.local();
 const CACHE_DIR = fm.joinPath(fm.documentsDirectory(), "fitnessfirst-widget-cache");
@@ -321,18 +321,16 @@ function getUmamiPayload(sessionId) {
         data: {
             widget_version: VERSION,
             device: {
-                name: Device.name(),
                 isUsingDarkApppearance: Device.isUsingDarkAppearance(),
                 locale: Device.locale(),
-                language: Device.language(),
                 screen: `${screen.width}x${screen.height}`,
-                operating_system: Device.systemName(),
                 operating_system_version: Device.systemVersion(),
-                model: Device.model(),
-                brand: "Apple",
             },
             user: {
-                club: SELECTED_CLUB
+                club: {
+                    name: SELECTED_CLUB?.name,
+                    usage_id: SELECTED_CLUB?.usage_id
+                }
             }
         }
     }
