@@ -91,15 +91,15 @@ This widget collects anonymous usage statistics.
 | Detmold                                                 | 2017436370 |
 | Dorsten                                                 | 1460068730 |
 | Dortmund                                                | 2445876250 |
+| Dresden - Altstadt                                      | 1425155790 |
 | Dresden - Postplatz                                     | 2447780470 |
-| Dresden - Prager Spitze                                 | 1274276050 |
-| Dresden – Altstadt                                      | 1425155790 |
+| Dresden - Prager Straße                                 | 1274276050 |
 | Düsseldorf - Am Seestern                                | 2447783370 |
 | Düsseldorf - Düsseltal                                  | 2445923070 |
 | Düsseldorf - Im Lighthouse                              | 1312263410 |
 | Düsseldorf - In der KÖ Galerie                          | 1456156730 |
 | Düsseldorf – Holthausen                                 | 1418080850 |
-| Essen                                                   | 1254452530 |
+| Essen - Kettwig                                         | 1254452530 |
 | Esslingen - Adenauerbrücke                              | 1884725920 |
 | Esslingen - Hengstenberg Areal                          | 1682293180 |
 | Esslingen - Im Dick                                     | 1549742170 |
@@ -153,8 +153,8 @@ This widget collects anonymous usage statistics.
 | Hamm                                                    | 1460912610 |
 | Hannover - City                                         | 1440050380 |
 | Hannover - Georgstraße                                  | 2447826140 |
-| Heidenheim - Am Brenzpark                               | 1682600400 |
 | Heidenheim - Steinheimer Straße                         | 1895671930 |
+| Heidenheim – Am Brenzpark                               | 1682600400 |
 | Heilbronn                                               | 2408786580 |
 | Hildesheim                                              | 1439644620 |
 | Homburg                                                 | 1606418930 |
@@ -175,16 +175,16 @@ This widget collects anonymous usage statistics.
 | Laatzen                                                 | 1439721570 |
 | Laufenburg                                              | 2406515870 |
 | Laupheim                                                | 1895674540 |
-| Leipzig                                                 | 1264196080 |
+| Leipzig - Messehof                                      | 1264196080 |
 | Leipzig - Thomaskirche                                  | 2447818860 |
 | Lemgo                                                   | 2006688920 |
 | Ludwigsburg                                             | 1884693320 |
 | Magdeburg - Am Kroatenweg                               | 1452085070 |
 | Magdeburg - Sudenburg                                   | 2447781820 |
 | Mainz                                                   | 1270049830 |
-| Mannheim - Im Quartier                                  | 1272859330 |
 | Mannheim - Neckarau                                     | 1895682580 |
 | Mannheim - Sandhofen                                    | 1895675960 |
+| Mannheim – Im Quartier                                  | 1272859330 |
 | Marl                                                    | 1460836050 |
 | Merzig - City                                           | 1535834440 |
 | Merzig - Saarwiesenring                                 | 1584793770 |
