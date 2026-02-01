@@ -92,7 +92,7 @@ This widget collects anonymous usage statistics.
 | Dorsten                                                 | 1460068730 |
 | Dortmund                                                | 2445876250 |
 | Dresden - Postplatz                                     | 2447780470 |
-| Dresden - Prager Spitze                                 | 1274276050 |
+| Dresden - Prager Straße                                 | 1274276050 |
 | Dresden – Altstadt                                      | 1425155790 |
 | Düsseldorf - Am Seestern                                | 2447783370 |
 | Düsseldorf - Düsseltal                                  | 2445923070 |
@@ -153,8 +153,8 @@ This widget collects anonymous usage statistics.
 | Hamm                                                    | 1460912610 |
 | Hannover - City                                         | 1440050380 |
 | Hannover - Georgstraße                                  | 2447826140 |
-| Heidenheim - Am Brenzpark                               | 1682600400 |
 | Heidenheim - Steinheimer Straße                         | 1895671930 |
+| Heidenheim – Am Brenzpark                               | 1682600400 |
 | Heilbronn                                               | 2408786580 |
 | Hildesheim                                              | 1439644620 |
 | Homburg                                                 | 1606418930 |
@@ -175,7 +175,7 @@ This widget collects anonymous usage statistics.
 | Laatzen                                                 | 1439721570 |
 | Laufenburg                                              | 2406515870 |
 | Laupheim                                                | 1895674540 |
-| Leipzig                                                 | 1264196080 |
+| Leipzig - Messehof                                      | 1264196080 |
 | Leipzig - Thomaskirche                                  | 2447818860 |
 | Lemgo                                                   | 2006688920 |
 | Ludwigsburg                                             | 1884693320 |

@@ -93,7 +93,7 @@
     "name": "Berlin - Steglitz - Im Schloss - Ladies",
     "url_id": "berlin-women-steglitz-im-schloss",
     "usage_id": "1331805970",
-    "netpulse_uuid": null
+    "netpulse_uuid": "b037b6b3-785b-487a-86ec-c456ff06783e"
   },
   {
     "name": "Berlin - Steglitz SSC",
@@ -237,7 +237,7 @@
     "name": "Darmstadt - Hauptbahnhof",
     "url_id": "darmstadt-hauptbahnhof",
     "usage_id": "2159878580",
-    "netpulse_uuid": "4a050641-35cb-4a6e-9b5e-1c384225fe7d"
+    "netpulse_uuid": null
   },
   {
     "name": "Darmstadt - Heidelberger Straße",
@@ -312,7 +312,7 @@
     "netpulse_uuid": "ffcd821f-0fd7-476d-a8f4-6621f027d1b7"
   },
   {
-    "name": "Dresden - Prager Spitze",
+    "name": "Dresden - Prager Straße",
     "url_id": "dresden-prager-spitze",
     "usage_id": "1274276050",
     "netpulse_uuid": "5215f877-5b60-4ad1-969a-a34602469a01"
@@ -678,16 +678,16 @@
     "netpulse_uuid": "9d066219-2006-433e-9a08-fe78640b5837"
   },
   {
-    "name": "Heidenheim - Am Brenzpark",
-    "url_id": "heidenheim-am-brenzpark",
-    "usage_id": "1682600400",
-    "netpulse_uuid": "5d389ce3-55f4-42b6-a8b8-1c29c0d363e9"
-  },
-  {
     "name": "Heidenheim - Steinheimer Straße",
     "url_id": "heidenheim-steinheimer",
     "usage_id": "1895671930",
     "netpulse_uuid": "2c0ceeab-4af5-42e1-bc46-f3fc34e4da2d"
+  },
+  {
+    "name": "Heidenheim – Am Brenzpark",
+    "url_id": "heidenheim-am-brenzpark",
+    "usage_id": "1682600400",
+    "netpulse_uuid": "5d389ce3-55f4-42b6-a8b8-1c29c0d363e9"
   },
   {
     "name": "Heilbronn",
@@ -810,7 +810,7 @@
     "netpulse_uuid": "3171bb71-f62e-41f2-b0a2-8a65b163f66d"
   },
   {
-    "name": "Leipzig",
+    "name": "Leipzig - Messehof",
     "url_id": "leipzig-mitte-messehof",
     "usage_id": "1264196080",
     "netpulse_uuid": "b5aef04c-bc25-47fa-8ea5-a538d291b9ad"
@@ -837,7 +837,7 @@
     "name": "Magdeburg - Am Kroatenweg",
     "url_id": "magdeburg-kroatenweg",
     "usage_id": "1452085070",
-    "netpulse_uuid": null
+    "netpulse_uuid": "4b6c15f2-12c9-4f22-8f89-c2c9f42dbdf5"
   },
   {
     "name": "Magdeburg - Sudenburg",
