@@ -48,7 +48,7 @@
     "netpulse_uuid": "ca533225-07da-4c56-85f7-9532ec6c1e21"
   },
   {
-    "name": "Berlin - Friedrichshain - Ladies",
+    "name": "Berlin - Friedrichshain (Ladies)",
     "url_id": "berlin-women-friedrichshain",
     "usage_id": "1331807400",
     "netpulse_uuid": "79856219-713f-46de-af3e-8d2e8bdd2b1c"
@@ -60,16 +60,40 @@
     "netpulse_uuid": "2de10248-fe00-4f0c-96e6-add493975d92"
   },
   {
+    "name": "Berlin - Hellersdorf",
+    "url_id": "berlin-hellersdorf",
+    "usage_id": "2876964840",
+    "netpulse_uuid": "3401910b-62a3-4117-a598-a03b9885678f"
+  },
+  {
     "name": "Berlin - Hohenschönhausen",
     "url_id": "berlin-hohenschoenhausen",
     "usage_id": "2445302340",
     "netpulse_uuid": "c926a4d5-ff59-4db2-a9c8-530429790168"
   },
   {
-    "name": "Berlin - Pankow - Ladies",
+    "name": "Berlin - Im Schloss (Ladies)",
+    "url_id": "berlin-women-steglitz-im-schloss",
+    "usage_id": "1331805970",
+    "netpulse_uuid": "b037b6b3-785b-487a-86ec-c456ff06783e"
+  },
+  {
+    "name": "Berlin - Lichterfelde",
+    "url_id": "berlin-lichterfelde",
+    "usage_id": "2876957230",
+    "netpulse_uuid": "775b888b-f0b1-4fc5-9bb4-98f539d1a51b"
+  },
+  {
+    "name": "Berlin - Pankow (Ladies)",
     "url_id": "berlin-women-pankow",
     "usage_id": "1330510340",
     "netpulse_uuid": "40d82714-06e4-42f0-b818-fee666dda030"
+  },
+  {
+    "name": "Berlin - Prager Platz",
+    "url_id": "berlin-prager-platz",
+    "usage_id": "2876945680",
+    "netpulse_uuid": "b3c29ff2-a4dd-4e1f-b74e-5e1360cf83e2"
   },
   {
     "name": "Berlin - Prenzlauer Berg",
@@ -88,18 +112,6 @@
     "url_id": "berlin-steglitz",
     "usage_id": "1337439340",
     "netpulse_uuid": "517ffc0e-076c-483f-82bc-f67b73f330ab"
-  },
-  {
-    "name": "Berlin - Steglitz - Im Schloss - Ladies",
-    "url_id": "berlin-women-steglitz-im-schloss",
-    "usage_id": "1331805970",
-    "netpulse_uuid": null
-  },
-  {
-    "name": "Berlin - Steglitz SSC",
-    "url_id": "berlin-steglitz-ssc",
-    "usage_id": "1241680760",
-    "netpulse_uuid": "b047e608-b185-46d4-994a-958a90ba1875"
   },
   {
     "name": "Berlin - Wedding",
@@ -138,7 +150,7 @@
     "netpulse_uuid": "295f3d22-cbd8-4b23-ab92-87f8c9b95f41"
   },
   {
-    "name": "Bietigheim-Bissingen",
+    "name": "Bietigheim - Bissingen",
     "url_id": "bietigheim-bissingen",
     "usage_id": "1884726910",
     "netpulse_uuid": "e189af38-526b-4b5b-8d72-1a708d983068"
@@ -198,22 +210,10 @@
     "netpulse_uuid": "d2d76bca-2ebe-40cc-abad-fe4cfade444e"
   },
   {
-    "name": "Chemnitz",
-    "url_id": "chemnitz",
-    "usage_id": "99999999",
-    "netpulse_uuid": null
-  },
-  {
     "name": "Cloppenburg",
     "url_id": "cloppenburg",
     "usage_id": "2449631390",
     "netpulse_uuid": "e1a6d9a6-1c02-4cd1-b53b-afc20e0c15bc"
-  },
-  {
-    "name": "Cottbus",
-    "url_id": "cottbus",
-    "usage_id": "1426282580",
-    "netpulse_uuid": "9ec84e6d-91b5-43fc-9628-d42a7b987fe0"
   },
   {
     "name": "Crailsheim",
@@ -228,7 +228,7 @@
     "netpulse_uuid": "dee680ee-aab2-44f9-a29e-81f53df03c1c"
   },
   {
-    "name": "Darmstadt - Eschollbrücker Straße",
+    "name": "Darmstadt - Eschollbrückerstraße",
     "url_id": "darmstadt-eschollbruecker",
     "usage_id": "2159838350",
     "netpulse_uuid": "ce901992-4385-48df-886b-3871860e61b5"
@@ -240,7 +240,7 @@
     "netpulse_uuid": "4a050641-35cb-4a6e-9b5e-1c384225fe7d"
   },
   {
-    "name": "Darmstadt - Heidelberger Straße",
+    "name": "Darmstadt - Heidelberger Strasse",
     "url_id": "darmstadt-heidelbergerstrasse",
     "usage_id": "2298339140",
     "netpulse_uuid": "3909950f-31d1-44c3-9885-fbb51e7d97ec"
@@ -300,10 +300,10 @@
     "netpulse_uuid": "eb4df981-202a-4c16-8342-3324f17016a2"
   },
   {
-    "name": "Dortmund",
-    "url_id": "dortmund",
-    "usage_id": "2445876250",
-    "netpulse_uuid": "0a0ebc40-4672-49e4-b483-afbcd020c143"
+    "name": "Dresden - Altstadt",
+    "url_id": "dresden-altstadt",
+    "usage_id": "1425155790",
+    "netpulse_uuid": "43f0ac74-67eb-44a9-8d33-74fda1ff729f"
   },
   {
     "name": "Dresden - Postplatz",
@@ -312,16 +312,10 @@
     "netpulse_uuid": "ffcd821f-0fd7-476d-a8f4-6621f027d1b7"
   },
   {
-    "name": "Dresden - Prager Spitze",
+    "name": "Dresden - Prager Straße",
     "url_id": "dresden-prager-spitze",
     "usage_id": "1274276050",
     "netpulse_uuid": "5215f877-5b60-4ad1-969a-a34602469a01"
-  },
-  {
-    "name": "Dresden – Altstadt",
-    "url_id": "dresden-altstadt",
-    "usage_id": "1425155790",
-    "netpulse_uuid": "43f0ac74-67eb-44a9-8d33-74fda1ff729f"
   },
   {
     "name": "Düsseldorf - Am Seestern",
@@ -336,6 +330,12 @@
     "netpulse_uuid": "3ff71400-c428-47ac-bae4-eabd95eff3c5"
   },
   {
+    "name": "Düsseldorf - Holthausen",
+    "url_id": "duesseldorf-holthausen",
+    "usage_id": "1418080850",
+    "netpulse_uuid": "5b5d8524-8f89-42cc-9ba0-5d86bdd05eea"
+  },
+  {
     "name": "Düsseldorf - Im Lighthouse",
     "url_id": "duesseldorf-derendorf-im-lighthouse",
     "usage_id": "1312263410",
@@ -348,13 +348,7 @@
     "netpulse_uuid": "bccc0705-0e75-4770-80e8-c5b4cabfa274"
   },
   {
-    "name": "Düsseldorf – Holthausen",
-    "url_id": "duesseldorf-holthausen",
-    "usage_id": "1418080850",
-    "netpulse_uuid": "5b5d8524-8f89-42cc-9ba0-5d86bdd05eea"
-  },
-  {
-    "name": "Essen",
+    "name": "Essen - Kettwig",
     "url_id": "essen-kettwig",
     "usage_id": "1254452530",
     "netpulse_uuid": "4509d94e-7cbd-4aea-a25a-aaaf41a2073f"
@@ -393,7 +387,7 @@
     "name": "Frankfurt - Bockenheim",
     "url_id": "frankfurt-bockenheim",
     "usage_id": "2158635620",
-    "netpulse_uuid": "00a3f528-0003-4018-b849-90af3a8fc486"
+    "netpulse_uuid": "665c0f8a-fc0c-4a28-85e0-55585d4ef88e"
   },
   {
     "name": "Frankfurt - Eckenheim",
@@ -450,7 +444,7 @@
     "netpulse_uuid": "a086a5de-b95c-4e15-adbe-521c60f4366e"
   },
   {
-    "name": "Frankfurt - Sachsenhausen - Ladies",
+    "name": "Frankfurt - Sachsenhausen (Ladies)",
     "url_id": "frankfurt-women-sachsenhausen",
     "usage_id": "1249347530",
     "netpulse_uuid": "3f5476b7-c99a-4e1f-bdd5-5f2b08b287ba"
@@ -459,7 +453,7 @@
     "name": "Frankfurt - Westend",
     "url_id": "frankfurt-westend",
     "usage_id": "1285865290",
-    "netpulse_uuid": "c7068a69-2481-413a-a40c-2ce63d8e897d"
+    "netpulse_uuid": "3a5d2723-9529-4ff7-8b62-7a2a609085a7"
   },
   {
     "name": "Freiburg",
@@ -478,12 +472,6 @@
     "url_id": "geislingen",
     "usage_id": "1661288370",
     "netpulse_uuid": "8097e44f-fb86-4507-9d13-60c04a8f2aac"
-  },
-  {
-    "name": "Georgsmarienhütte",
-    "url_id": "georgsmarienhuette",
-    "usage_id": "1459127920",
-    "netpulse_uuid": "b96c9856-fe9b-4f02-909f-5e97be3db40a"
   },
   {
     "name": "Gera",
@@ -589,7 +577,7 @@
   },
   {
     "name": "Hamburg - Harburg",
-    "url_id": "hamburg-harburg",
+    "url_id": "hamburg-harburg-hafen",
     "usage_id": "1432648510",
     "netpulse_uuid": "bede5b7b-12aa-44d6-8466-8d8cf5a0081c"
   },
@@ -613,9 +601,9 @@
   },
   {
     "name": "Hamburg - Lüneburger Tor",
-    "url_id": "hamburg-lueneburger-tor",
+    "url_id": "hamburg-harburg-lueneburger-tor",
     "usage_id": "2447822250",
-    "netpulse_uuid": "5a5e515f-9d26-4584-98ac-518549bf35bf"
+    "netpulse_uuid": "bede5b7b-12aa-44d6-8466-8d8cf5a0081c"
   },
   {
     "name": "Hamburg - Niendorf",
@@ -774,7 +762,7 @@
     "netpulse_uuid": "29b406ed-9254-4131-b4ac-204984307e09"
   },
   {
-    "name": "Köln - Eigelstein Viertel",
+    "name": "Köln - Eigelstein-Viertel",
     "url_id": "koeln-eigelstein",
     "usage_id": "1415452200",
     "netpulse_uuid": "839c0c74-1f59-4f88-9a99-d2017a08dd83"
@@ -810,7 +798,7 @@
     "netpulse_uuid": "3171bb71-f62e-41f2-b0a2-8a65b163f66d"
   },
   {
-    "name": "Leipzig",
+    "name": "Leipzig - Messehof",
     "url_id": "leipzig-mitte-messehof",
     "usage_id": "1264196080",
     "netpulse_uuid": "b5aef04c-bc25-47fa-8ea5-a538d291b9ad"
@@ -834,10 +822,10 @@
     "netpulse_uuid": "8af1fb82-8938-4137-9b95-6f0d02a2799d"
   },
   {
-    "name": "Magdeburg - Am Kroatenweg",
+    "name": "Magdeburg",
     "url_id": "magdeburg-kroatenweg",
     "usage_id": "1452085070",
-    "netpulse_uuid": null
+    "netpulse_uuid": "4b6c15f2-12c9-4f22-8f89-c2c9f42dbdf5"
   },
   {
     "name": "Magdeburg - Sudenburg",
@@ -912,7 +900,7 @@
     "netpulse_uuid": "9694d0ac-d474-4e7f-83a8-9e47adda63fd"
   },
   {
-    "name": "München - DER Bogen",
+    "name": "München - Der Bogen",
     "url_id": "muenchen-bogen",
     "usage_id": "1862102410",
     "netpulse_uuid": "b706795e-bcee-4932-8f2e-a654ca7890da"
@@ -960,7 +948,7 @@
     "netpulse_uuid": "d21547a2-230e-4a7c-a848-a4c5bf85ab7e"
   },
   {
-    "name": "Münster - Germania - Campus",
+    "name": "Münster - Germania Campus",
     "url_id": "muenster-germania-campus",
     "usage_id": "1257174880",
     "netpulse_uuid": "8042e940-bdf3-4f6c-85c8-b4808a63f629"
@@ -1053,7 +1041,7 @@
     "name": "Rheinstetten",
     "url_id": "rheinstetten",
     "usage_id": "2408772740",
-    "netpulse_uuid": null
+    "netpulse_uuid": "2f59bdf2-9ec3-4732-af8c-826b5a3e21cd"
   },
   {
     "name": "Rostock - Innenstadt",
@@ -1140,12 +1128,6 @@
     "netpulse_uuid": "6767d88e-5298-4a0e-a78c-28a926ef837e"
   },
   {
-    "name": "Vösendorf",
-    "url_id": "voesendorf",
-    "usage_id": "2509882760",
-    "netpulse_uuid": "4b79e619-70ea-4e5a-9b2c-f51b862066c7"
-  },
-  {
     "name": "Waiblingen",
     "url_id": "waiblingen",
     "usage_id": "1875082440",
@@ -1188,13 +1170,19 @@
     "netpulse_uuid": "41c2cbf1-366a-4ab6-8cf0-41076248c244"
   },
   {
+    "name": "Wien - Vösendorf",
+    "url_id": "voesendorf",
+    "usage_id": "2509882760",
+    "netpulse_uuid": "4b79e619-70ea-4e5a-9b2c-f51b862066c7"
+  },
+  {
     "name": "Wiesbaden - Bahnhofsplatz",
     "url_id": "wiesbaden-bahnhofsplatz",
     "usage_id": "1273799520",
     "netpulse_uuid": "dfed975b-16bd-4635-9d92-419b5f9ae984"
   },
   {
-    "name": "Wiesbaden - Künstlerviertel",
+    "name": "Wiesbaden - Im Künstlerviertel",
     "url_id": "wiesbaden-kuenstlerviertel",
     "usage_id": "2069188770",
     "netpulse_uuid": "09e76bf3-e014-4813-b1d2-202f628a6e7d"

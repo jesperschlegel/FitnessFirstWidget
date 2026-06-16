@@ -48,22 +48,24 @@ This widget collects anonymous usage statistics.
 | Bad Boll                                                | 1639731710 |
 | Bad Kreuznach                                           | 1606362470 |
 | Bad Rappenau                                            | 1895666890 |
-| Berlin - Friedrichshain - Ladies                        | 1331807400 |
+| Berlin - Friedrichshain (Ladies)                        | 1331807400 |
 | Berlin - Gendarmenmarkt                                 | 1337443440 |
+| Berlin - Hellersdorf                                    | 2876964840 |
 | Berlin - Hohenschönhausen                               | 2445302340 |
-| Berlin - Pankow - Ladies                                | 1330510340 |
+| Berlin - Im Schloss (Ladies)                            | 1331805970 |
+| Berlin - Lichterfelde                                   | 2876957230 |
+| Berlin - Pankow (Ladies)                                | 1330510340 |
+| Berlin - Prager Platz                                   | 2876945680 |
 | Berlin - Prenzlauer Berg                                | 1337440790 |
 | Berlin - Schöneberg                                     | 2445364210 |
 | Berlin - Steglitz                                       | 1337439340 |
-| Berlin - Steglitz - Im Schloss - Ladies                 | 1331805970 |
-| Berlin - Steglitz SSC                                   | 1241680760 |
 | Berlin - Wedding                                        | 2447840130 |
 | Berlin - Wilmersdorf                                    | 1330880140 |
 | Berlin - Zehlendorfer Welle                             | 1338053500 |
 | Biberach                                                | 1890996580 |
 | Bielefeld - Am Boulevard                                | 1255748020 |
 | Bielefeld - Herforder Straße                            | 1416529920 |
-| Bietigheim-Bissingen                                    | 1884726910 |
+| Bietigheim - Bissingen                                  | 1884726910 |
 | Blieskastel                                             | 1576472940 |
 | Blomberg                                                | 2017439540 |
 | Bonn                                                    | 1319906560 |
@@ -73,14 +75,12 @@ This widget collects anonymous usage statistics.
 | Bremen - Überseestadt                                   | 1441439090 |
 | Bretten                                                 | 1895671670 |
 | Bünde                                                   | 1413034650 |
-| Chemnitz                                                | 99999999   |
 | Cloppenburg                                             | 2449631390 |
-| Cottbus                                                 | 1426282580 |
 | Crailsheim                                              | 1895669100 |
 | Darmstadt - Eberstadt                                   | 2141560220 |
-| Darmstadt - Eschollbrücker Straße                       | 2159838350 |
+| Darmstadt - Eschollbrückerstraße                        | 2159838350 |
 | Darmstadt - Hauptbahnhof                                | 2159878580 |
-| Darmstadt - Heidelberger Straße                         | 2298339140 |
+| Darmstadt - Heidelberger Strasse                        | 2298339140 |
 | Darmstadt - Kleyerstraße                                | 2130588420 |
 | Darmstadt - Ludwigsplatz - Ladies                       | 2141724950 |
 | Darmstadt - Mornewegstraße                              | 2158735880 |
@@ -90,16 +90,15 @@ This widget collects anonymous usage statistics.
 | Datteln                                                 | 1463335190 |
 | Detmold                                                 | 2017436370 |
 | Dorsten                                                 | 1460068730 |
-| Dortmund                                                | 2445876250 |
+| Dresden - Altstadt                                      | 1425155790 |
 | Dresden - Postplatz                                     | 2447780470 |
-| Dresden - Prager Spitze                                 | 1274276050 |
-| Dresden – Altstadt                                      | 1425155790 |
+| Dresden - Prager Straße                                 | 1274276050 |
 | Düsseldorf - Am Seestern                                | 2447783370 |
 | Düsseldorf - Düsseltal                                  | 2445923070 |
+| Düsseldorf - Holthausen                                 | 1418080850 |
 | Düsseldorf - Im Lighthouse                              | 1312263410 |
 | Düsseldorf - In der KÖ Galerie                          | 1456156730 |
-| Düsseldorf – Holthausen                                 | 1418080850 |
-| Essen                                                   | 1254452530 |
+| Essen - Kettwig                                         | 1254452530 |
 | Esslingen - Adenauerbrücke                              | 1884725920 |
 | Esslingen - Hengstenberg Areal                          | 1682293180 |
 | Esslingen - Im Dick                                     | 1549742170 |
@@ -115,12 +114,11 @@ This widget collects anonymous usage statistics.
 | Frankfurt - Ostend                                      | 1285922650 |
 | Frankfurt - Preungesheim                                | 2407179550 |
 | Frankfurt - Rödelheim - Ladies                          | 2159740720 |
-| Frankfurt - Sachsenhausen - Ladies                      | 1249347530 |
+| Frankfurt - Sachsenhausen (Ladies)                      | 1249347530 |
 | Frankfurt - Westend                                     | 1285865290 |
 | Freiburg                                                | 1549475630 |
 | Fürth                                                   | 2407178250 |
 | Geislingen                                              | 1661288370 |
-| Georgsmarienhütte                                       | 1459127920 |
 | Gera                                                    | 2447844360 |
 | Giengen                                                 | 1680363620 |
 | Gifhorn                                                 | 1449813910 |
@@ -169,17 +167,17 @@ This widget collects anonymous usage statistics.
 | Köln - Bayenthal                                        | 1312319190 |
 | Köln - Breite Straße                                    | 1312256840 |
 | Köln - Ehrenfeld                                        | 1321089840 |
-| Köln - Eigelstein Viertel                               | 1415452200 |
+| Köln - Eigelstein-Viertel                               | 1415452200 |
 | Köln - Schildergasse                                    | 1317157790 |
 | Köln - Sülz                                             | 1312259220 |
 | Laatzen                                                 | 1439721570 |
 | Laufenburg                                              | 2406515870 |
 | Laupheim                                                | 1895674540 |
-| Leipzig                                                 | 1264196080 |
+| Leipzig - Messehof                                      | 1264196080 |
 | Leipzig - Thomaskirche                                  | 2447818860 |
 | Lemgo                                                   | 2006688920 |
 | Ludwigsburg                                             | 1884693320 |
-| Magdeburg - Am Kroatenweg                               | 1452085070 |
+| Magdeburg                                               | 1452085070 |
 | Magdeburg - Sudenburg                                   | 2447781820 |
 | Mainz                                                   | 1270049830 |
 | Mannheim - Im Quartier                                  | 1272859330 |
@@ -192,7 +190,7 @@ This widget collects anonymous usage statistics.
 | Mönchengladbach - Rheydt                                | 2445886010 |
 | Mörfelden-Walldorf                                      | 2141507670 |
 | München - Am Marienplatz                                | 1356285290 |
-| München - DER Bogen                                     | 1862102410 |
+| München - Der Bogen                                     | 1862102410 |
 | München - Haidhausen                                    | 1363429860 |
 | München - Hofstatt                                      | 1218422750 |
 | München - Laim                                          | 1356095110 |
@@ -200,7 +198,7 @@ This widget collects anonymous usage statistics.
 | München - Schwabing                                     | 1357396380 |
 | München - Sendling                                      | 2237556420 |
 | Münster - Aaseestadt                                    | 1254349140 |
-| Münster - Germania - Campus                             | 1257174880 |
+| Münster - Germania Campus                               | 1257174880 |
 | Nordhausen                                              | 999999999  |
 | Nürnberg                                                | 2405771120 |
 | Offenbach                                               | 2405712540 |
@@ -230,7 +228,6 @@ This widget collects anonymous usage statistics.
 | Trier - West                                            | 1606282130 |
 | Trier - Zentrum                                         | 1552211670 |
 | Uhingen                                                 | 1679595440 |
-| Vösendorf                                               | 2509882760 |
 | Waiblingen                                              | 1875082440 |
 | Wangen                                                  | 1884698170 |
 | Wedel                                                   | 1450945880 |
@@ -238,8 +235,9 @@ This widget collects anonymous usage statistics.
 | Wien - Floridsdorf                                      | 2509890090 |
 | Wien - Landstraße                                       | 2509875380 |
 | Wien - Liesing                                          | 2509898060 |
+| Wien - Vösendorf                                        | 2509882760 |
 | Wiesbaden - Bahnhofsplatz                               | 1273799520 |
-| Wiesbaden - Künstlerviertel                             | 2069188770 |
+| Wiesbaden - Im Künstlerviertel                          | 2069188770 |
 | Winnenden                                               | 1883508530 |
 | Wolfenbüttel - City                                     | 1424999990 |
 | Wäschenbeuren                                           | 1679008750 |
