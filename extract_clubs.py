@@ -1,7 +1,7 @@
 import asyncio
 import json
 import re
-from collections import defaultdict
+from collections import Counter
 from urllib.parse import urlparse
 
 import aiohttp
@@ -12,17 +12,20 @@ from tqdm.asyncio import tqdm
 
 BASE_URL = "https://www.fitnessfirst.de"
 NETPULSE_BASE_URL = "https://fitnessfirst.netpulse.com"
+SITEMAP_URL = f"{BASE_URL}/sitemap.xml"
 CLUBS_FILENAME = "assets/clubs.json"
 
 FUZZY_MATCH_THRESHOLD = 90
 
-# Those clubs need manual mapping as they cant be matched by URL or fuzzy name
-# An explicit None means that the club should not be included in the final list
-MANUAL_WEBSITE_TO_NETPULSE_UUID = {
-    "berlin-women-steglitz-im-schloss": "b037b6b3-785b-487a-86ec-c456ff06783e",
-    "chemnitz": None, # is permanently closed
-    "magdeburg-kroatenweg": "4b6c15f2-12c9-4f22-8f89-c2c9f42dbdf5",
-}
+# Applied during name normalisation so a "women" in a website URL slug matches
+# the "(Ladies)" used in the corresponding Netpulse club name.
+NAME_SYNONYMS = {"women": "ladies", "damen": "ladies"}
+
+# Optional overrides for clubs the automatic matcher gets wrong:
+#   "<url_id>": "<netpulse-uuid>"  -> force a specific Netpulse club
+#   "<url_id>": None               -> exclude the club from the final list
+# The matcher currently resolves every club on its own, so this is empty.
+MANUAL_WEBSITE_TO_NETPULSE_UUID = {}
 
 async def fetch_html(session, url):
     """Fetch HTML content with timeout and error handling."""
@@ -35,51 +38,66 @@ async def fetch_html(session, url):
         return ""
 
 
-async def fetch_club_list(session):
-    html_content = await fetch_html(session, f"{BASE_URL}/clubs")
-    soup = BeautifulSoup(html_content, "html.parser")
-    club_links = soup.find_all("a", href=lambda x: x and x.startswith("/clubs/"))
-
-    url_to_names = defaultdict(set)
-    for a in club_links:
-        url_to_names[a["href"]].add(a.get_text(strip=True))
-
-    # Only keep URLs with "Club auswählen" and another actual name
-    sanitized_clubs = [
-        [
-            url.replace("/clubs/", ""),
-            next(n for n in names if n != "Club auswählen")
-            .replace("Fitnessstudio", "")
-            .strip(),
-        ]
-        for url, names in url_to_names.items()
-        if "Club auswählen" in names and len(names) > 1
-    ]
-    return sanitized_clubs
+async def fetch_club_url_ids(session):
+    xml = await fetch_html(session, SITEMAP_URL)
+    url_ids = set()
+    for loc in re.findall(r"<loc>(.*?)</loc>", xml):
+        if "/clubs/" not in loc:
+            continue
+        slug = loc.split("/clubs/", 1)[1].strip("/").strip()
+        if slug and "/" not in slug:  # single path segment only
+            url_ids.add(slug)
+    return sorted(url_ids)
 
 
-async def fetch_club_id(session, sem, club_url_id):
+def tidy_name(name):
+    """Normalise separators so every name uses a plain hyphen."""
+    return name.replace("–", "-").replace("—", "-")
+
+
+def clean_title_name(title):
+    """Derive a club name from the page <title>.
+
+    Titles look like "Fitnessstudio Hamburg - Harburg | Fitness First".
+    """
+    name = title.split("|", 1)[0]
+    name = re.sub(r"^\s*Fitnessstudio\s+", "", name)
+    name = re.sub(r"\s*\(ehemals.*?\)", "", name)
+    return re.sub(r"\s+", " ", name).strip()
+
+
+def normalize_name(text):
+    """Lowercase, transliterate umlauts, drop punctuation and apply synonyms."""
+    text = (text or "").lower()
+    for umlaut, repl in (("ä", "ae"), ("ö", "oe"), ("ü", "ue"), ("ß", "ss")):
+        text = text.replace(umlaut, repl)
+    words = re.sub(r"[^a-z0-9]+", " ", text).split()
+    return " ".join(NAME_SYNONYMS.get(w, w) for w in words)
+
+
+async def fetch_club_data(session, sem, club_url_id):
     async with sem:
         url = f"{BASE_URL}/clubs/{club_url_id}"
         html = await fetch_html(session, url)
-        if not html:
-            return None
 
-        soup = BeautifulSoup(html, "html.parser")
-        section = soup.find("section", class_="show-club-checkin")
-        if section and section.has_attr("data-club"):
-            return section["data-club"]
+    if not html:
         return None
 
+    soup = BeautifulSoup(html, "html.parser")
+    section = soup.find("section", class_="show-club-checkin")
+    if not (section and section.has_attr("data-club")):
+        return None
 
-async def build_club_data(
-    session, sem, club_url_id, club_name, netpulse_uuid_by_url_id
-):
+    # Fallback name from the page itself; the canonical name comes from Netpulse.
+    title = soup.title.get_text(strip=True) if soup.title else ""
+    h1 = soup.find("h1")
+    h1_name = h1.get_text(" ", strip=True) if h1 else ""
+    name = clean_title_name(title) or h1_name or club_url_id
     return {
-        "name": club_name,
+        "name": name,
+        "h1_name": h1_name,
         "url_id": club_url_id,
-        "usage_id": await fetch_club_id(session, sem, club_url_id),
-        "netpulse_uuid": netpulse_uuid_by_url_id.get(club_url_id, None),
+        "usage_id": section["data-club"],
     }
 
 
@@ -91,43 +109,40 @@ async def fetch_netpulse_clubs_data(session):
         return data
 
 
-def get_netpulse_uuid_mapping(netpulse_data, website_club_list):
-    mapping = {}
-    website_club_list_copy = website_club_list.copy()
-    for url_id, website_name in website_club_list_copy:
-        uuid = None
+def match_netpulse(netpulse_data, url_id, *name_hints):
+    """Find the Netpulse club for a website club, or None if no confident match.
 
-        # Check manual mapping first
-        if url_id in MANUAL_WEBSITE_TO_NETPULSE_UUID:
-            uuid = MANUAL_WEBSITE_TO_NETPULSE_UUID[url_id]
-            if uuid is not None:
-                mapping[url_id] = uuid
-            continue
+    Tries, in order: a manual override, an exact match on the slug embedded in
+    the Netpulse club URL, then a fuzzy match of the normalised slug and any page
+    name hints (title, heading) against the Netpulse name.
+    """
+    if url_id in MANUAL_WEBSITE_TO_NETPULSE_UUID:
+        uuid = MANUAL_WEBSITE_TO_NETPULSE_UUID[url_id]
+        return next((c for c in netpulse_data if c.get("uuid") == uuid), None)
 
-        for netpulse_club in netpulse_data:
-            netpulse_url = netpulse_club.get("url")
-            if netpulse_url is not None:
-                path = urlparse(netpulse_url).path
-                netpulse_url_id = path.rstrip("/").split("/")[-1]
-                if netpulse_url_id == url_id:
-                    uuid = netpulse_club.get("uuid", None)
-                    break
+    for club in netpulse_data:
+        netpulse_url = club.get("url")
+        if netpulse_url:
+            slug = urlparse(netpulse_url).path.rstrip("/").split("/")[-1]
+            if slug == url_id:
+                return club
 
-            if (
-                fuzz.ratio(website_name, netpulse_club.get("name", ""))
-                > FUZZY_MATCH_THRESHOLD
-            ):
-                uuid = netpulse_club.get("uuid", None)
-                break
+    slug_words = normalize_name(url_id.replace("-", " "))
+    hints = [normalize_name(h) for h in name_hints if h]
+    best, best_score = None, 0
+    for club in netpulse_data:
+        name = normalize_name(club.get("name"))
+        score = max(
+            [
+                fuzz.token_sort_ratio(slug_words, name),
+                fuzz.token_set_ratio(slug_words, name),
+            ]
+            + [fuzz.token_sort_ratio(hint, name) for hint in hints]
+        )
+        if score > best_score:
+            best, best_score = club, score
 
-        if uuid is not None:
-            mapping[url_id] = uuid
-        else:
-            print(
-                f"Warning: No matching Netpulse UUID found for club '{website_name}' ({url_id})"
-            )
-
-    return mapping
+    return best if best_score >= FUZZY_MATCH_THRESHOLD else None
 
 
 async def main():
@@ -135,24 +150,48 @@ async def main():
     timeout = ClientTimeout(total=30)
 
     async with aiohttp.ClientSession(timeout=timeout) as session:
-        club_list = await fetch_club_list(session)
+        url_ids = await fetch_club_url_ids(session)
         netpulse_club_data = await fetch_netpulse_clubs_data(session)
-        netpulse_uuid_by_url_id = get_netpulse_uuid_mapping(
-            netpulse_club_data, club_list
-        )
 
-        tasks = [
-            build_club_data(
-                session, sem, club_url_id, club_name, netpulse_uuid_by_url_id
-            )
-            for club_url_id, club_name in club_list
-        ]
-
-        results = []
+        # Scrape every candidate page; non-club pages return None and drop out.
+        tasks = [fetch_club_data(session, sem, url_id) for url_id in url_ids]
+        clubs = []
         for r in tqdm(asyncio.as_completed(tasks), total=len(tasks)):
             res = await r
             if res:
-                results.append(res)
+                clubs.append(res)
+
+    # Drop clubs explicitly excluded via manual mapping (e.g. permanently closed)
+    clubs = [
+        c
+        for c in clubs
+        if MANUAL_WEBSITE_TO_NETPULSE_UUID.get(c["url_id"], "keep") is not None
+    ]
+
+    # Match each club to its Netpulse counterpart (for the UUID and a clean name)
+    for club in clubs:
+        club["match"] = match_netpulse(
+            netpulse_club_data, club["url_id"], club["name"], club["h1_name"]
+        )
+
+    # Prefer the cleaner Netpulse name, but when several website clubs map to the
+    # same Netpulse club (e.g. two Hamburg-Harburg locations) keep the scraped
+    # names so the entries stay distinguishable.
+    claimed = Counter(c["match"]["uuid"] for c in clubs if c["match"])
+    results = []
+    for club in clubs:
+        match = club["match"]
+        if not match:
+            print(f"Warning: No Netpulse match for '{club['name']}' ({club['url_id']})")
+        unique_match = match is not None and claimed[match["uuid"]] == 1
+        results.append(
+            {
+                "name": tidy_name(match["name"] if unique_match else club["name"]),
+                "url_id": club["url_id"],
+                "usage_id": club["usage_id"],
+                "netpulse_uuid": match["uuid"] if match else None,
+            }
+        )
 
     # Sort by actual club name
     results.sort(key=lambda x: x["name"])
