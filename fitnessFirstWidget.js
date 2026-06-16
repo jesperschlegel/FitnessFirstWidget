@@ -1,6 +1,6 @@
 async function loadWidgetScript() {
   const SOURCE_URL =
-    "https://raw.githubusercontent.com/jesperschlegel/FitnessFirstWidget/refs/heads/main/src/widget.js"
+    "https://cdn.jsdelivr.net/gh/jesperschlegel/FitnessFirstWidget@main/src/widget.js"
 
   const fm = FileManager.local()
   const cacheDir = fm.joinPath(fm.documentsDirectory(), "fitnessfirst-widget-cache")
