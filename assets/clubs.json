@@ -210,12 +210,6 @@
     "netpulse_uuid": "d2d76bca-2ebe-40cc-abad-fe4cfade444e"
   },
   {
-    "name": "Cloppenburg",
-    "url_id": "cloppenburg",
-    "usage_id": "2449631390",
-    "netpulse_uuid": "e1a6d9a6-1c02-4cd1-b53b-afc20e0c15bc"
-  },
-  {
     "name": "Crailsheim",
     "url_id": "crailsheim",
     "usage_id": "1895669100",
@@ -1066,6 +1060,12 @@
     "url_id": "saarlouis",
     "usage_id": "1582661160",
     "netpulse_uuid": "e6156ea3-594f-47fe-a133-780671c82b12"
+  },
+  {
+    "name": "Sigmaringen",
+    "url_id": "sigmaringen",
+    "usage_id": "3149022890",
+    "netpulse_uuid": "7c1dce33-fa51-4de1-a360-14832a8a619f"
   },
   {
     "name": "Singen",

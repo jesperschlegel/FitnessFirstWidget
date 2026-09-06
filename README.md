@@ -75,7 +75,6 @@ This widget collects anonymous usage statistics.
 | Bremen - Überseestadt                                   | 1441439090 |
 | Bretten                                                 | 1895671670 |
 | Bünde                                                   | 1413034650 |
-| Cloppenburg                                             | 2449631390 |
 | Crailsheim                                              | 1895669100 |
 | Darmstadt - Eberstadt                                   | 2141560220 |
 | Darmstadt - Eschollbrückerstraße                        | 2159838350 |
@@ -218,6 +217,7 @@ This widget collects anonymous usage statistics.
 | Rottenburg                                              | 1895679990 |
 | Saarbrücken                                             | 2406673080 |
 | Saarlouis                                               | 1582661160 |
+| Sigmaringen                                             | 3149022890 |
 | Singen                                                  | 1895686800 |
 | Stuttgart - Bad Cannstatt                               | 1550017790 |
 | Stuttgart - Hauptstätter Straße                         | 2406731360 |
