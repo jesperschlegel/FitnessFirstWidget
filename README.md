@@ -75,7 +75,6 @@ This widget collects anonymous usage statistics.
 | Bremen - Überseestadt                                   | 1441439090 |
 | Bretten                                                 | 1895671670 |
 | Bünde                                                   | 1413034650 |
-| Cloppenburg                                             | 2449631390 |
 | Crailsheim                                              | 1895669100 |
 | Darmstadt - Eberstadt                                   | 2141560220 |
 | Darmstadt - Eschollbrückerstraße                        | 2159838350 |
@@ -104,6 +103,15 @@ This widget collects anonymous usage statistics.
 | Esslingen - Im Dick                                     | 1549742170 |
 | Ettlingen                                               | 1890994800 |
 | Fellbach                                                | 1884717260 |
+| Fitness First Bergheim                                  | PLACEHOLDER |
+| Fitness First Frechen                                   | PLACEHOLDER |
+| Fitness First Hürth                                     | PLACEHOLDER |
+| Fitness First Kerpen - Im Erft Karree                   | PLACEHOLDER |
+| Fitness First Kerpen - Sindorf                          | PLACEHOLDER |
+| Fitness First Leichlingen                               | PLACEHOLDER |
+| Fitness First Mönchengladbach - Rheydt-Pongs            | PLACEHOLDER |
+| Fitness First Niederaußem                               | PLACEHOLDER |
+| Fitness First Rösrath                                   | PLACEHOLDER |
 | Frankfurt - Bockenheim                                  | 2158635620 |
 | Frankfurt - Eckenheim                                   | 1291822090 |
 | Frankfurt - Eschenheimer Turm                           | 1285923430 |
@@ -164,12 +172,20 @@ This widget collects anonymous usage statistics.
 | Kassel                                                  | 1255080510 |
 | Kirn                                                    | 1602430120 |
 | Kornwestheim                                            | 1883508710 |
+| Köln - Altstadt Süd                                     | 3228079510 |
 | Köln - Bayenthal                                        | 1312319190 |
+| Köln - Belgisches Viertel                               | 3227969380 |
 | Köln - Breite Straße                                    | 1312256840 |
+| Köln - Deutz                                            | 3227945430 |
 | Köln - Ehrenfeld                                        | 1321089840 |
 | Köln - Eigelstein-Viertel                               | 1415452200 |
+| Köln - Mediapark                                        | 3219284170 |
+| Köln - Neu-Weiden - Ladies                              | 3218994020 |
+| Köln - Nippes                                           | 3228127150 |
+| Köln - Riehl                                            | 3227937930 |
 | Köln - Schildergasse                                    | 1317157790 |
 | Köln - Sülz                                             | 1312259220 |
+| Köln - Weiden-Üsdorf                                    | 3227952150 |
 | Laatzen                                                 | 1439721570 |
 | Laufenburg                                              | 2406515870 |
 | Laupheim                                                | 1895674540 |
@@ -214,10 +230,12 @@ This widget collects anonymous usage statistics.
 | Regensburg - Kirchmeierstraße                           | 1370526730 |
 | Regensburg - Pfaffenstein                               | 1355827140 |
 | Rheinstetten                                            | 2408772740 |
+| Rodenkirchen-Godorf                                     | 3227959340 |
 | Rostock - Innenstadt                                    | 2447834550 |
 | Rottenburg                                              | 1895679990 |
 | Saarbrücken                                             | 2406673080 |
 | Saarlouis                                               | 1582661160 |
+| Sigmaringen                                             | 3149022890 |
 | Singen                                                  | 1895686800 |
 | Stuttgart - Bad Cannstatt                               | 1550017790 |
 | Stuttgart - Hauptstätter Straße                         | 2406731360 |
