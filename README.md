@@ -48,6 +48,7 @@ This widget collects anonymous usage statistics.
 | Bad Boll                                                | 1639731710 |
 | Bad Kreuznach                                           | 1606362470 |
 | Bad Rappenau                                            | 1895666890 |
+| Bergheim                                                | 3228097070 |
 | Berlin - Friedrichshain (Ladies)                        | 1331807400 |
 | Berlin - Gendarmenmarkt                                 | 1337443440 |
 | Berlin - Hellersdorf                                    | 2876964840 |
@@ -75,7 +76,6 @@ This widget collects anonymous usage statistics.
 | Bremen - Überseestadt                                   | 1441439090 |
 | Bretten                                                 | 1895671670 |
 | Bünde                                                   | 1413034650 |
-| Cloppenburg                                             | 2449631390 |
 | Crailsheim                                              | 1895669100 |
 | Darmstadt - Eberstadt                                   | 2141560220 |
 | Darmstadt - Eschollbrückerstraße                        | 2159838350 |
@@ -116,6 +116,7 @@ This widget collects anonymous usage statistics.
 | Frankfurt - Rödelheim - Ladies                          | 2159740720 |
 | Frankfurt - Sachsenhausen (Ladies)                      | 1249347530 |
 | Frankfurt - Westend                                     | 1285865290 |
+| Frechen                                                 | 3218988230 |
 | Freiburg                                                | 1549475630 |
 | Fürth                                                   | 2407178250 |
 | Geislingen                                              | 1661288370 |
@@ -157,22 +158,34 @@ This widget collects anonymous usage statistics.
 | Hildesheim                                              | 1439644620 |
 | Homburg                                                 | 1606418930 |
 | Horn                                                    | 2017439250 |
+| Hürth                                                   | 3227976180 |
 | Idar-Oberstein - Am Festplatz                           | 1572938000 |
 | Idar-Oberstein - Am Kreisel                             | 1579541630 |
 | Ingolstadt                                              | 2405757110 |
 | Kaiserslautern                                          | 1270072180 |
 | Kassel                                                  | 1255080510 |
+| Kerpen - Sindorf                                        | 3228110140 |
+| Kerpen im Erft Karree                                   | 3218974670 |
 | Kirn                                                    | 1602430120 |
 | Kornwestheim                                            | 1883508710 |
+| Köln - Altstadt Süd                                     | 3228079510 |
 | Köln - Bayenthal                                        | 1312319190 |
+| Köln - Belgisches Viertel                               | 3227969380 |
 | Köln - Breite Straße                                    | 1312256840 |
+| Köln - Deutz                                            | 3227945430 |
 | Köln - Ehrenfeld                                        | 1321089840 |
 | Köln - Eigelstein-Viertel                               | 1415452200 |
+| Köln - Mediapark                                        | 3219284170 |
+| Köln - Neu-Weiden - Ladies                              | 3218994020 |
+| Köln - Nippes                                           | 3228127150 |
+| Köln - Riehl                                            | 3227937930 |
 | Köln - Schildergasse                                    | 1317157790 |
 | Köln - Sülz                                             | 1312259220 |
+| Köln - Weiden-Üsdorf                                    | 3227952150 |
 | Laatzen                                                 | 1439721570 |
 | Laufenburg                                              | 2406515870 |
 | Laupheim                                                | 1895674540 |
+| Leichlingen                                             | 3228071370 |
 | Leipzig - Messehof                                      | 1264196080 |
 | Leipzig - Thomaskirche                                  | 2447818860 |
 | Lemgo                                                   | 2006688920 |
@@ -188,6 +201,7 @@ This widget collects anonymous usage statistics.
 | Merzig - Saarwiesenring                                 | 1584793770 |
 | Mönchengladbach - Eicken                                | 1411679210 |
 | Mönchengladbach - Rheydt                                | 2445886010 |
+| Mönchengladbach - Rheydt-Pongs                          | 3218999340 |
 | Mörfelden-Walldorf                                      | 2141507670 |
 | München - Am Marienplatz                                | 1356285290 |
 | München - Der Bogen                                     | 1862102410 |
@@ -199,6 +213,7 @@ This widget collects anonymous usage statistics.
 | München - Sendling                                      | 2237556420 |
 | Münster - Aaseestadt                                    | 1254349140 |
 | Münster - Germania Campus                               | 1257174880 |
+| Niederaußem                                             | 3218983860 |
 | Nordhausen                                              | 999999999  |
 | Nürnberg                                                | 2405771120 |
 | Offenbach                                               | 2405712540 |
@@ -214,10 +229,13 @@ This widget collects anonymous usage statistics.
 | Regensburg - Kirchmeierstraße                           | 1370526730 |
 | Regensburg - Pfaffenstein                               | 1355827140 |
 | Rheinstetten                                            | 2408772740 |
+| Rodenkirchen-Godorf                                     | 3227959340 |
 | Rostock - Innenstadt                                    | 2447834550 |
 | Rottenburg                                              | 1895679990 |
+| Rösrath                                                 | 3228119090 |
 | Saarbrücken                                             | 2406673080 |
 | Saarlouis                                               | 1582661160 |
+| Sigmaringen                                             | 3149022890 |
 | Singen                                                  | 1895686800 |
 | Stuttgart - Bad Cannstatt                               | 1550017790 |
 | Stuttgart - Hauptstätter Straße                         | 2406731360 |
