@@ -48,6 +48,12 @@
     "netpulse_uuid": "ca533225-07da-4c56-85f7-9532ec6c1e21"
   },
   {
+    "name": "Bergheim",
+    "url_id": "bergheim",
+    "usage_id": "3228097070",
+    "netpulse_uuid": "69906d41-25fd-4c7d-901a-0d2e64f4cb6a"
+  },
+  {
     "name": "Berlin - Friedrichshain (Ladies)",
     "url_id": "berlin-women-friedrichshain",
     "usage_id": "1331807400",
@@ -112,6 +118,12 @@
     "url_id": "berlin-steglitz",
     "usage_id": "1337439340",
     "netpulse_uuid": "517ffc0e-076c-483f-82bc-f67b73f330ab"
+  },
+  {
+    "name": "Berlin - Steglitz SSC",
+    "url_id": "berlin-steglitz-ssc",
+    "usage_id": "1241680760",
+    "netpulse_uuid": "b047e608-b185-46d4-994a-958a90ba1875"
   },
   {
     "name": "Berlin - Wedding",
@@ -210,10 +222,10 @@
     "netpulse_uuid": "d2d76bca-2ebe-40cc-abad-fe4cfade444e"
   },
   {
-    "name": "Cloppenburg",
-    "url_id": "cloppenburg",
-    "usage_id": "2449631390",
-    "netpulse_uuid": "e1a6d9a6-1c02-4cd1-b53b-afc20e0c15bc"
+    "name": "Cottbus",
+    "url_id": "cottbus",
+    "usage_id": "1426282580",
+    "netpulse_uuid": "9ec84e6d-91b5-43fc-9628-d42a7b987fe0"
   },
   {
     "name": "Crailsheim",
@@ -298,6 +310,12 @@
     "url_id": "dorsten",
     "usage_id": "1460068730",
     "netpulse_uuid": "eb4df981-202a-4c16-8342-3324f17016a2"
+  },
+  {
+    "name": "Dortmund",
+    "url_id": "dortmund",
+    "usage_id": "2445876250",
+    "netpulse_uuid": "0a0ebc40-4672-49e4-b483-afbcd020c143"
   },
   {
     "name": "Dresden - Altstadt",
@@ -396,7 +414,7 @@
     "netpulse_uuid": "00a3f528-0003-4018-b849-90af3a8fc486"
   },
   {
-    "name": "Frankfurt - Eschenheimer Turm",
+    "name": "Frankfurt - Eschenheimer Turm (GESCHLOSSEN)",
     "url_id": "frankfurt-eschenheimer-turm",
     "usage_id": "1285923430",
     "netpulse_uuid": "4db4251a-addb-40b2-91bc-be6229497e05"
@@ -456,6 +474,12 @@
     "netpulse_uuid": "3a5d2723-9529-4ff7-8b62-7a2a609085a7"
   },
   {
+    "name": "Frechen",
+    "url_id": "frechen",
+    "usage_id": "3218988230",
+    "netpulse_uuid": "3dad51db-8dbc-4630-b565-7d510546b31f"
+  },
+  {
     "name": "Freiburg",
     "url_id": "freiburg",
     "usage_id": "1549475630",
@@ -490,6 +514,12 @@
     "url_id": "gifhorn",
     "usage_id": "1449813910",
     "netpulse_uuid": "129805d6-a1de-4d83-9a9e-eac506d4fa13"
+  },
+  {
+    "name": "Gleisdorf",
+    "url_id": "gleisdorf",
+    "usage_id": "3264991560",
+    "netpulse_uuid": "78a75049-e321-4fd6-826b-2ae0620c1c2c"
   },
   {
     "name": "Goslar",
@@ -576,10 +606,16 @@
     "netpulse_uuid": "2c8d980b-a0f8-427a-8b8e-e80312d1ad5a"
   },
   {
-    "name": "Hamburg - Harburg",
+    "name": "Hamburg - Harburg Hafen",
     "url_id": "hamburg-harburg-hafen",
     "usage_id": "1432648510",
     "netpulse_uuid": "bede5b7b-12aa-44d6-8466-8d8cf5a0081c"
+  },
+  {
+    "name": "Hamburg - Harburg Lüneburger Tor",
+    "url_id": "hamburg-harburg-lueneburger-tor",
+    "usage_id": "2447822250",
+    "netpulse_uuid": "5a5e515f-9d26-4584-98ac-518549bf35bf"
   },
   {
     "name": "Hamburg - Innenstadt Dammtorpark",
@@ -598,12 +634,6 @@
     "url_id": "hamburg-langenhorn",
     "usage_id": "2445880970",
     "netpulse_uuid": "ed0cf69b-1676-45cb-93f7-7dc8ad7b2f6b"
-  },
-  {
-    "name": "Hamburg - Lüneburger Tor",
-    "url_id": "hamburg-harburg-lueneburger-tor",
-    "usage_id": "2447822250",
-    "netpulse_uuid": "bede5b7b-12aa-44d6-8466-8d8cf5a0081c"
   },
   {
     "name": "Hamburg - Niendorf",
@@ -702,6 +732,12 @@
     "netpulse_uuid": "3b96c6a7-d428-4349-b658-ca79045d5a11"
   },
   {
+    "name": "Hürth",
+    "url_id": "huerth",
+    "usage_id": "3227976180",
+    "netpulse_uuid": "9f3d4758-e85d-45c8-aa3a-fc14991f305e"
+  },
+  {
     "name": "Idar-Oberstein - Am Festplatz",
     "url_id": "idar-oberstein-festplatz",
     "usage_id": "1572938000",
@@ -732,6 +768,18 @@
     "netpulse_uuid": "d74a112f-a97a-4370-8230-525dc0c1ad23"
   },
   {
+    "name": "Kerpen - Sindorf",
+    "url_id": "kerpen-sindorf",
+    "usage_id": "3228110140",
+    "netpulse_uuid": "ba327967-0108-4f36-a18b-4b327b661481"
+  },
+  {
+    "name": "Kerpen im Erft Karree",
+    "url_id": "kerpen-erft-karree",
+    "usage_id": "3218974670",
+    "netpulse_uuid": "291572b7-dad7-4f94-920e-9377f5ee025d"
+  },
+  {
     "name": "Kirn",
     "url_id": "kirn",
     "usage_id": "1602430120",
@@ -750,10 +798,22 @@
     "netpulse_uuid": "2da0fa69-8672-40e3-864d-25bdb380cf82"
   },
   {
+    "name": "Köln - Belgisches Viertel",
+    "url_id": "koeln-belgisches-viertel",
+    "usage_id": "3227969380",
+    "netpulse_uuid": "39be3a24-a042-4585-8a37-bc8b78220aee"
+  },
+  {
     "name": "Köln - Breite Straße",
     "url_id": "fitnessstudio-koeln-breite-strasse",
     "usage_id": "1312256840",
     "netpulse_uuid": "461d7d8c-c9e1-4041-8320-256eebd916b5"
+  },
+  {
+    "name": "Köln - Deutz",
+    "url_id": "koeln-deutz",
+    "usage_id": "3227945430",
+    "netpulse_uuid": "27c2482f-b43c-4825-9109-bc670c1fb15c"
   },
   {
     "name": "Köln - Ehrenfeld",
@@ -768,6 +828,30 @@
     "netpulse_uuid": "839c0c74-1f59-4f88-9a99-d2017a08dd83"
   },
   {
+    "name": "Köln - Mediapark",
+    "url_id": "koeln-mediapark",
+    "usage_id": "3219284170",
+    "netpulse_uuid": "9b5e3b0d-6660-4d86-a8f8-ee64580f532b"
+  },
+  {
+    "name": "Köln - Neu-Weiden - Ladies",
+    "url_id": "koeln-neu-weiden-ladies",
+    "usage_id": "3218994020",
+    "netpulse_uuid": "908e8288-de82-4405-8fb2-eb6025f95556"
+  },
+  {
+    "name": "Köln - Nippes",
+    "url_id": "koeln-nippes",
+    "usage_id": "3228127150",
+    "netpulse_uuid": "f5d12cc5-a853-4688-a35d-ee1e9b39c5de"
+  },
+  {
+    "name": "Köln - Riehl",
+    "url_id": "koeln-riehl",
+    "usage_id": "3227937930",
+    "netpulse_uuid": "64d8a626-28e4-4d79-95c7-b4e139f62452"
+  },
+  {
     "name": "Köln - Schildergasse",
     "url_id": "koeln-innenstadt-schildergasse",
     "usage_id": "1317157790",
@@ -778,6 +862,18 @@
     "url_id": "koeln-suelz",
     "usage_id": "1312259220",
     "netpulse_uuid": "bbc819c4-2552-4e22-952d-b5f7087cf466"
+  },
+  {
+    "name": "Köln - Weiden-Üsdorf",
+    "url_id": "koeln-weiden-uesdorf",
+    "usage_id": "3227952150",
+    "netpulse_uuid": "4e23b722-c43e-4d62-989c-ef21565b68d6"
+  },
+  {
+    "name": "Köln - Zülpicher Platz",
+    "url_id": "koeln-zuelpicher-platz",
+    "usage_id": "3228079510",
+    "netpulse_uuid": "6e103e3c-0326-43e5-8f58-4949c15183b1"
   },
   {
     "name": "Laatzen",
@@ -796,6 +892,12 @@
     "url_id": "laupheim",
     "usage_id": "1895674540",
     "netpulse_uuid": "3171bb71-f62e-41f2-b0a2-8a65b163f66d"
+  },
+  {
+    "name": "Leichlingen",
+    "url_id": "leichlingen",
+    "usage_id": "3228071370",
+    "netpulse_uuid": "ae263321-faa6-4454-9153-7f30bd1c1bdd"
   },
   {
     "name": "Leipzig - Messehof",
@@ -888,6 +990,12 @@
     "netpulse_uuid": "1ad77e07-253c-4747-8256-867da2591757"
   },
   {
+    "name": "Mönchengladbach - Rheydt-Pongs",
+    "url_id": "moenchengladbach-rheydt-pongs",
+    "usage_id": "3218999340",
+    "netpulse_uuid": "104cffe4-fea3-4308-a9f5-385bc1fb2b97"
+  },
+  {
     "name": "Mörfelden-Walldorf",
     "url_id": "moerfelden-walldorf",
     "usage_id": "2141507670",
@@ -952,6 +1060,12 @@
     "url_id": "muenster-germania-campus",
     "usage_id": "1257174880",
     "netpulse_uuid": "8042e940-bdf3-4f6c-85c8-b4808a63f629"
+  },
+  {
+    "name": "Niederaußem",
+    "url_id": "niederaussem",
+    "usage_id": "3218983860",
+    "netpulse_uuid": "f4241c86-c58e-4404-92f7-b4ddf5d5bef8"
   },
   {
     "name": "Nordhausen",
@@ -1044,6 +1158,12 @@
     "netpulse_uuid": "2f59bdf2-9ec3-4732-af8c-826b5a3e21cd"
   },
   {
+    "name": "Rodenkirchen-Godorf",
+    "url_id": "rodenkirchen-godorf",
+    "usage_id": "3227959340",
+    "netpulse_uuid": "446e5c2b-dac6-49d9-9f76-04acfa200c43"
+  },
+  {
     "name": "Rostock - Innenstadt",
     "url_id": "rostock-innenstadt",
     "usage_id": "2447834550",
@@ -1056,6 +1176,12 @@
     "netpulse_uuid": "be43a642-0fbd-4ee4-9628-fed4b484d0f2"
   },
   {
+    "name": "Rösrath",
+    "url_id": "roesrath",
+    "usage_id": "3228119090",
+    "netpulse_uuid": "7c6620e2-08e8-4e65-acb4-61bfa50f8866"
+  },
+  {
     "name": "Saarbrücken",
     "url_id": "saarbruecken",
     "usage_id": "2406673080",
@@ -1066,6 +1192,12 @@
     "url_id": "saarlouis",
     "usage_id": "1582661160",
     "netpulse_uuid": "e6156ea3-594f-47fe-a133-780671c82b12"
+  },
+  {
+    "name": "Sigmaringen",
+    "url_id": "sigmaringen",
+    "usage_id": "3149022890",
+    "netpulse_uuid": "7c1dce33-fa51-4de1-a360-14832a8a619f"
   },
   {
     "name": "Singen",
