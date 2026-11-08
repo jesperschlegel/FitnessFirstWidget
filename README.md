@@ -187,7 +187,6 @@ This widget collects anonymous usage statistics.
 | Köln - Riehl                                            | 3227937930 |
 | Köln - Schildergasse                                    | 1317157790 |
 | Köln - Sülz                                             | 1312259220 |
-| Köln - Weiden-Üsdorf                                    | 3227952150 |
 | Köln - Zülpicher Platz                                  | 3228079510 |
 | Laatzen                                                 | 1439721570 |
 | Laufenburg                                              | 2406515870 |
